@@ -1,0 +1,48 @@
+# Welcome to Serverless!
+# For full config options, check the docs:
+#    docs.serverless.com
+
+service: platypus-lambda
+
+# You can pin your service to only deploy with a specific Serverless version
+# Check out our docs for more details
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  stage: prod
+  region: us-east-1
+
+# you can define service wide environment variables here
+#  environment:
+#    variable1: value1
+
+# you can add packaging information here
+package:
+  individually: true
+  # patterns:
+  #   - "!exclude-me.js"
+  #   - "!exclude-me-dir/**"
+  #   - include-me.js
+  #   - include-me-dir/**
+
+functions:
+  current_time:
+    runtime: nodejs14.x
+    handler: current_time/handler.currentTime
+    events:
+      - http:
+          path: /current_time
+          method: get
+          cors: true
+# you can add CloudFormation resource templates here
+#resources:
+#  Resources:
+#    NewResource:
+#      Type: AWS::S3::Bucket
+#      Properties:
+#        BucketName: my-new-bucket
+#  Outputs:
+#     NewOutput:
+#       Description: "Description for the output"
+#       Value: "Some output value"
