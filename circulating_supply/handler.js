@@ -78,7 +78,8 @@ const circulatingSupply = async (event, context, callback) => {
   const response = {
     statusCode: 200,
     headers: {
-      "Content-Type": "text/plain",
+      "content-type": "application/json",
+      "access-control-allow-origin": "*",
     },
     body: circulatingStr,
   };
