@@ -1,6 +1,6 @@
 # Platypus Lambda
 
-This repository stores all of the AWS Lambda functions used by Platypus Dapp.
+This repository stores all of the AWS Lambda functions used by Platypus Dapp. It is maintained by the [Serverless framework](https://www.serverless.com/).
 
 ## Deployed Functions
 
@@ -10,12 +10,27 @@ current_time:  GET - https://yr3ejhev7i.execute-api.us-east-1.amazonaws.com/prod
 circulating_supply:  GET - https://yr3ejhev7i.execute-api.us-east-1.amazonaws.com/prod/circulating_supply
 ```
 
-## Deployment
+## Development
+
+Install the Serverless framework CLI.
 
 ```sh
+npm install -g serverless
+```
+
+## Deployment
+
+Set up AWS CLI and configure your AWS credentials.
+
+```sh
+# cd to repo root
 sls deploy
 # or
 sls deploy --aws-profile [your-aws-cli-profile]
 ```
 
 After deployment, remember to enable CORS in API Gateway settings. See https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-cors-console.html and https://www.serverless.com/blog/cors-api-gateway-survival-guide/
+
+## Environment Variables
+
+TBD
