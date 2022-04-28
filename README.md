@@ -18,4 +18,4 @@ sls deploy
 sls deploy --aws-profile [your-aws-cli-profile]
 ```
 
-After deployment, remember to enable CORS in API Gateway settings. See https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-cors-console.html
+After deployment, remember to enable CORS in API Gateway settings. See https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-cors-console.html and https://www.serverless.com/blog/cors-api-gateway-survival-guide/
