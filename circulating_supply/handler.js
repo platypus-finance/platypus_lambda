@@ -13,12 +13,13 @@ const PTP_ADDRESS = "0x22d4002028f537599bE9f666d1c4Fa138522f9c8";
 const PTP_DECIMALS = 18;
 // Addresses that hold non-circulating PTP
 const LOCKED_ADDRESS = [
-  "0xD2805cff8877235d9EC88F683F85A8213DC288BC",
-  "0xe9a4cf46dad66ab72f1eb516a95c99f8baf17e94",
-  "0x068e297e8FF74115C9E1C4b5B83B700FdA5aFdEB",
-  "0x51208420eaba25b787008ee856665b2f4c5ed818",
-  "0x364996dc358926b9A86b1Ed601A33d5915fC86C8",
-  "0x68c5f4374228beedfa078e77b5ed93c28a2f713e",
+  "0xD2805cff8877235d9EC88F683F85A8213DC288BC", // liquidity mining
+  "0xe9a4cf46dad66ab72f1eb516a95c99f8baf17e94", // treasury vesting
+  "0x068e297e8FF74115C9E1C4b5B83B700FdA5aFdEB", // treausry multisig
+  "0x51208420eaba25b787008ee856665b2f4c5ed818", // Avalaunch IDO
+  "0x364996dc358926b9A86b1Ed601A33d5915fC86C8", // JLP double reward
+  "0x68c5f4374228beedfa078e77b5ed93c28a2f713e", // MasterPlatypus V2
+  /** @todo add PNG double reward */
 ];
 
 const vestedAmount = (t, start, duration, cliff, end, totalBalance) => {
