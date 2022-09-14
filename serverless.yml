@@ -27,22 +27,6 @@ package:
   #   - include-me-dir/**
 
 functions:
-  current_time:
-    runtime: nodejs14.x
-    handler: current_time/handler.currentTime
-    events:
-      - http:
-          path: /current_time
-          method: get
-          cors: true
-  circulating_supply:
-    runtime: nodejs14.x
-    handler: circulating_supply/handler.circulatingSupply
-    events:
-      - http:
-          path: /circulating_supply
-          method: get
-          cors: true
   cmc_price:
     runtime: nodejs14.x
     handler: cmc_price/handler.cmcPrice
