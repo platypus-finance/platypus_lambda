@@ -2,7 +2,7 @@
 # For full config options, check the docs:
 #    docs.serverless.com
 
-service: platypus-lambda
+service: platypus-lambda-cmc
 
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
@@ -10,7 +10,7 @@ frameworkVersion: "3"
 
 provider:
   name: aws
-  stage: prod
+  stage: dev
   region: us-east-1
 
 # you can define service wide environment variables here
@@ -27,6 +27,22 @@ package:
   #   - include-me-dir/**
 
 functions:
+  current_time:
+    runtime: nodejs14.x
+    handler: current_time/handler.currentTime
+    events:
+      - http:
+          path: /current_time
+          method: get
+          cors: true
+  circulating_supply:
+    runtime: nodejs14.x
+    handler: circulating_supply/handler.circulatingSupply
+    events:
+      - http:
+          path: /circulating_supply
+          method: get
+          cors: true
   cmc_price:
     runtime: nodejs14.x
     handler: cmc_price/handler.cmcPrice

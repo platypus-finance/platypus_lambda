@@ -5,9 +5,11 @@ This repository stores all of the AWS Lambda functions used by Platypus Dapp. It
 ## Deployed Functions
 
 Endpoints:
+
 ```
 current_time:  GET - https://yr3ejhev7i.execute-api.us-east-1.amazonaws.com/prod/current_time
 circulating_supply:  GET - https://yr3ejhev7i.execute-api.us-east-1.amazonaws.com/prod/circulating_supply
+cmc_price: GET - https://elzgxr8iga.execute-api.us-east-1.amazonaws.com/dev/cmc_price
 ```
 
 ## Development

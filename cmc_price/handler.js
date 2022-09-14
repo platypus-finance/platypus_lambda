@@ -4,10 +4,15 @@ const COIN_MARKET_CAP_API =
 
 module.exports.cmcPrice = async (event, context, callback) => {
   let id = "";
+  let aux = "";
   let responseCode = 200;
 
   if (event.queryStringParameters && event.queryStringParameters.id) {
     id = event.queryStringParameters.id;
+  }
+
+  if (event.queryStringParameters && event.queryStringParameters.aux) {
+    aux = event.queryStringParameters.aux;
   }
 
   const cmcData = await fetch(`${COIN_MARKET_CAP_API}?id=${id}`, {
@@ -21,13 +26,24 @@ module.exports.cmcPrice = async (event, context, callback) => {
 
   const result = await cmcData.json();
 
+  const finalResult = Object.values(result.data).reduce((res, item) => {
+    return {
+      ...res,
+      [item.id]: {
+        market_cap: item["quote"]["USD"]["market_cap"],
+        percent_change_24h: item["quote"]["USD"]["percent_change_24h"],
+        price: item["quote"]["USD"]["price"],
+      },
+    };
+  }, {});
+
   let response = {
     statusCode: responseCode,
     headers: {
       "content-type": "application/json",
-      "access-control-allow-origin": "*",
+      "Access-Control-Allow-Origin": "*",
     },
-    body: JSON.stringify(result),
+    body: JSON.stringify(finalResult),
   };
 
   callback(null, response);
