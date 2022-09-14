@@ -43,6 +43,17 @@ functions:
           path: /circulating_supply
           method: get
           cors: true
+  cmc_price:
+    runtime: nodejs14.x
+    handler: cmc_price/handler.cmcPrice
+    events:
+      - http:
+          path: /cmc_price
+          method: get
+          cors: true
+
+plugins:
+  - serverless-offline
 # you can add CloudFormation resource templates here
 #resources:
 #  Resources:
