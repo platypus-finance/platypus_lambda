@@ -2,17 +2,12 @@ const fetch = require("node-fetch");
 const COIN_MARKET_CAP_API =
   "https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest";
 
-module.exports.cmcPrice = async (event, context, callback) => {
+module.exports.cmcPrice = async (event, callback) => {
   let id = "";
-  let aux = "";
   let responseCode = 200;
 
   if (event.queryStringParameters && event.queryStringParameters.id) {
     id = event.queryStringParameters.id;
-  }
-
-  if (event.queryStringParameters && event.queryStringParameters.aux) {
-    aux = event.queryStringParameters.aux;
   }
 
   const cmcData = await fetch(`${COIN_MARKET_CAP_API}?id=${id}`, {
