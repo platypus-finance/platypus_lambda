@@ -60,7 +60,6 @@ functions:
             ttlInSeconds: 600 # cache cmc price for 10mins
             dataEncrypted: true # default is false
             cacheKeyParameters:
-              - name: request.path.proxy
               - name: request.querystring.id
 # you can add CloudFormation resource templates here
 #resources:
