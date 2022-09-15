@@ -26,6 +26,10 @@ package:
   #   - include-me.js
   #   - include-me-dir/**
 
+plugins:
+  - serverless-offline
+  - serverless-api-gateway-caching
+
 functions:
   current_time:
     runtime: nodejs14.x
@@ -51,9 +55,13 @@ functions:
           path: /cmc_price
           method: get
           cors: true
-
-plugins:
-  - serverless-offline
+          caching:
+            enabled: true
+            ttlInSeconds: 600 # cache cmc price for 10mins
+            dataEncrypted: true # default is false
+            cacheKeyParameters:
+              - name: request.path.proxy
+              - name: request.querystring.id
 # you can add CloudFormation resource templates here
 #resources:
 #  Resources:

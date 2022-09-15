@@ -30,7 +30,6 @@ module.exports.cmcPrice = async (event, context, callback) => {
     return {
       ...res,
       [item.id]: {
-        market_cap: item["quote"]["USD"]["market_cap"],
         percent_change_24h: item["quote"]["USD"]["percent_change_24h"],
         price: item["quote"]["USD"]["price"],
       },
