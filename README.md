@@ -12,6 +12,14 @@ circulating_supply:  GET - https://yr3ejhev7i.execute-api.us-east-1.amazonaws.co
 cmc_price: GET - https://elzgxr8iga.execute-api.us-east-1.amazonaws.com/dev/cmc_price
 ```
 
+## Local Testing
+
+Enable API Gateway locally
+
+```sh
+serverless offline start
+```
+
 ## Development
 
 Install the Serverless framework CLI.
