@@ -2,7 +2,7 @@
 # For full config options, check the docs:
 #    docs.serverless.com
 
-service: platypus-lambda-cmc
+service: platypus-lambda
 
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
@@ -10,7 +10,7 @@ frameworkVersion: "3"
 
 provider:
   name: aws
-  stage: dev
+  stage: prod
   region: us-east-1
 
 # you can define service wide environment variables here
