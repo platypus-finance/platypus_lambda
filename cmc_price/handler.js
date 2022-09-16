@@ -11,27 +11,29 @@ module.exports.cmcPrice = async (event) => {
     id = event.queryStringParameters.id;
   }
 
-  try {
-    const cmcData = await fetch(`${COIN_MARKET_CAP_API}?id=${id}`, {
-      method: "GET",
-      headers: {
-        "X-CMC_PRO_API_KEY": "714bbf0f-a0ce-4bd3-85d2-5b291eef395c",
-        "Access-Control-Allow-Origin": "*",
-        "content-type": "application/json",
-      },
-    });
-    const result = await cmcData.json();
-    finalResult = Object.values(result.data).reduce((res, item) => {
-      return {
-        ...res,
-        [item.id]: {
-          percent_change_24h: item["quote"]["USD"]["percent_change_24h"],
-          price: item["quote"]["USD"]["price"],
+  if (id) {
+    try {
+      const cmcData = await fetch(`${COIN_MARKET_CAP_API}?id=${id}`, {
+        method: "GET",
+        headers: {
+          "X-CMC_PRO_API_KEY": "714bbf0f-a0ce-4bd3-85d2-5b291eef395c",
+          "Access-Control-Allow-Origin": "*",
+          "content-type": "application/json",
         },
-      };
-    }, {});
-  } catch (error) {
-    responseCode = 400;
+      });
+      const result = await cmcData.json();
+      finalResult = Object.values(result.data).reduce((res, item) => {
+        return {
+          ...res,
+          [item.id]: {
+            percent_change_24h: item["quote"]["USD"]["percent_change_24h"],
+            price: item["quote"]["USD"]["price"],
+          },
+        };
+      }, {});
+    } catch (error) {
+      responseCode = 400;
+    }
   }
 
   const response = {
