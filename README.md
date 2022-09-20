@@ -9,6 +9,7 @@ Endpoints:
 Production
 
 ```
+cmc_price:  GET - https://yr3ejhev7i.execute-api.us-east-1.amazonaws.com/prod/cmc_price
 current_time:  GET - https://yr3ejhev7i.execute-api.us-east-1.amazonaws.com/prod/current_time
 circulating_supply:  GET - https://yr3ejhev7i.execute-api.us-east-1.amazonaws.com/prod/circulating_supply
 ```
@@ -17,6 +18,8 @@ Development
 
 ```
 cmc_price: GET - https://wi51x7bbc4.execute-api.us-east-1.amazonaws.com/dev/cmc_price
+current_time: GET - https://wi51x7bbc4.execute-api.us-east-1.amazonaws.com/dev/current_time
+circulating_supply: GET - https://wi51x7bbc4.execute-api.us-east-1.amazonaws.com/dev/circulating_supply
 ```
 
 ## Local Testing
