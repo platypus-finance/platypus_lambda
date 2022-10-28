@@ -30,4 +30,15 @@ const vestedAmount = (t, start, duration, cliff, end, totalBalance) => {
   }
 };
 
-module.exports = { getMulticallContract, vestedAmount };
+const executeCallBacks = (values, callbacks) => {
+  if (!values) return;
+  for (let i = 0; i < callbacks.length; i++) {
+    const value = values[i];
+    const callback = callbacks[i];
+    if (callback && value !== null) {
+      callback(value);
+    }
+  }
+};
+
+module.exports = { getMulticallContract, vestedAmount, executeCallBacks };
