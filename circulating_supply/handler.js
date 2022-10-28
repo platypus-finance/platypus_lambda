@@ -19,6 +19,7 @@ const LOCKED_ADDRESS = [
   "0x51208420eaba25b787008ee856665b2f4c5ed818", // Avalaunch IDO
   "0x364996dc358926b9A86b1Ed601A33d5915fC86C8", // JLP double reward
   "0x68c5f4374228beedfa078e77b5ed93c28a2f713e", // MasterPlatypus V2
+  "0x1f6B6b505D199B9bd0a6642B8d44533a811598da", // Voter address
   /** @todo add PNG double reward */
 ];
 
