@@ -51,6 +51,14 @@ functions:
           path: /circulating_supply
           method: get
           cors: true
+  total_supply:
+    runtime: nodejs14.x
+    handler: total_supply/handler.totalSupply
+    events:
+      - http:
+          path: /total_supply
+          method: get
+          cors: true
   cmc_price:
     runtime: nodejs14.x
     handler: cmc_price/handler.cmcPrice
