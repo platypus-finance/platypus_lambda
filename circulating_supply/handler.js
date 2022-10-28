@@ -78,8 +78,6 @@ const circulatingSupply = async (event, context, callback) => {
     lockedPtpAmount = lockedPtpAmount.add(multicallResults[index]);
   }
 
-  console.log(utils.formatEther(lockedPtpAmount));
-
   const jlpShareRatioWad = userInfo.amount
     .mul(utils.parseEther("1"))
     .div(jlpSupply);
@@ -111,6 +109,6 @@ const circulatingSupply = async (event, context, callback) => {
   callback(null, response);
 };
 
-circulatingSupply("", "", console.log);
+// circulatingSupply("", "", console.log);
 
 module.exports.circulatingSupply = circulatingSupply;
