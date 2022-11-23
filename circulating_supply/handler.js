@@ -27,6 +27,7 @@ const LOCKED_ADDRESS = [
   "0x364996dc358926b9A86b1Ed601A33d5915fC86C8", // JLP double reward
   "0x68c5f4374228beedfa078e77b5ed93c28a2f713e", // MasterPlatypus V2
   "0x1f6B6b505D199B9bd0a6642B8d44533a811598da", // Voter address
+  "0xc4Cf4996Ee374591D60FA80BcDfBF2F25CDE7CBe", // old multisig address
   /** @todo add PNG double reward */
 ];
 
@@ -109,6 +110,6 @@ const circulatingSupply = async (event, context, callback) => {
   callback(null, response);
 };
 
-// circulatingSupply("", "", console.log);
+circulatingSupply("", "", console.log);
 
 module.exports.circulatingSupply = circulatingSupply;
