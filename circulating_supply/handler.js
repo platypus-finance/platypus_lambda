@@ -60,7 +60,7 @@ const circulatingSupply = async (event, context, callback) => {
     ),
     avaxPtpJlpContract.totalSupply(),
     ptpContract.balanceOf(AVAX_PTP_JLP_ADDRESS),
-    // this amount can directly be added to lockedPtpAmount
+    // this amount can be directly added to lockedPtpAmount
     vePtpContract.totalLockedPtp()
   );
 
