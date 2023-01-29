@@ -52,7 +52,8 @@ const avaxMulticallProvider = new multicall.Provider(
 
 const circulatingSupply = async (event, context, callback) => {
   const calls = [];
-  // Calculate PTP in AVAX-PTP pool owned by POL
+  // calls: indices 0,1,2 are for calculating PTP amount in AVAX-PTP pool owned by POL.
+  // calls: indices 3 and so on, are all the locked PTP amount.
   calls.push(
     masterJoeContract.userInfo(
       MASTERJOE_AVAX_PTP_POOL2_PID,
@@ -60,7 +61,6 @@ const circulatingSupply = async (event, context, callback) => {
     ),
     avaxPtpJlpContract.totalSupply(),
     ptpContract.balanceOf(AVAX_PTP_JLP_ADDRESS),
-    // this amount can be directly added to lockedPtpAmount
     vePtpContract.totalLockedPtp()
   );
 
