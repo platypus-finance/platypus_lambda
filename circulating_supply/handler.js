@@ -2,6 +2,7 @@ const multicall = require("ethers-multicall");
 const { utils, providers, constants } = require("ethers");
 const ERC20_ABI = require("./abis/ERC20.json");
 const MASTERCHEFJOEV3_ABI = require("./abis/MasterChefJoeV3.json");
+const VEPTP_ABI = require("./abis/VePtpV3.json");
 const vestingData = require("./vesting.json");
 const { getMulticallContract } = require("./utils.js");
 
@@ -16,6 +17,7 @@ const MASTERJOE_AVAX_PTP_POOL2_PID = 28;
 const PTP_TOTAL_SUPPLY = "300000000";
 const PTP_ADDRESS = "0x22d4002028f537599bE9f666d1c4Fa138522f9c8";
 const AVAX_PTP_JLP_ADDRESS = "0xCDFD91eEa657cc2701117fe9711C9a4F61FEED23";
+const VEPTP_ADDRESS = "0x5857019c749147EEE22b1Fe63500F237F3c1B692";
 const PTP_DECIMALS = 18;
 
 // Addresses that hold non-circulating PTP
@@ -41,6 +43,8 @@ const avaxPtpJlpContract = getMulticallContract(
 );
 const ptpContract = getMulticallContract(PTP_ADDRESS, ERC20_ABI);
 
+const vePtpContract = getMulticallContract(VEPTP_ADDRESS, VEPTP_ABI);
+
 const avaxMulticallProvider = new multicall.Provider(
   new providers.StaticJsonRpcProvider(AVAX_RPC_PROVIDER),
   parseInt(AVAX_CHAINID, 16)
@@ -48,14 +52,16 @@ const avaxMulticallProvider = new multicall.Provider(
 
 const circulatingSupply = async (event, context, callback) => {
   const calls = [];
-  // Calculate PTP in AVAX-PTP pool owned by POL
+  // calls: indices 0,1,2 are for calculating PTP amount in AVAX-PTP pool owned by POL.
+  // calls: indices 3 and so on, are all the locked PTP amount.
   calls.push(
     masterJoeContract.userInfo(
       MASTERJOE_AVAX_PTP_POOL2_PID,
       TREASURY_MULTISIG_ADDRESS
     ),
     avaxPtpJlpContract.totalSupply(),
-    ptpContract.balanceOf(AVAX_PTP_JLP_ADDRESS)
+    ptpContract.balanceOf(AVAX_PTP_JLP_ADDRESS),
+    vePtpContract.totalLockedPtp()
   );
 
   // PTP balance of locked addresses and vested addresses
