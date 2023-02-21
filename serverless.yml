@@ -72,6 +72,14 @@ functions:
             ttlInSeconds: 300 # cache cmc price for 5mins
             cacheKeyParameters:
               - name: request.querystring.id
+  main_pool_airdrop:
+    runtime: nodejs14.x
+    handler: main_pool_airdrop/handler.mainPoolAirdrop
+    events:
+      - http:
+          path: /main_pool_airdrop
+          method: get
+          cors: true
 # you can add CloudFormation resource templates here
 #resources:
 #  Resources:
