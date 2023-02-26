@@ -1,13 +1,14 @@
 const { ethers } = require("ethers");
 const path = require("path");
-let csvToJson = require("convert-csv-to-json");
+var fs = require("fs");
+
 module.exports.mainPoolAirdrop = async (event) => {
   const message = "Please sign to read your airdrop.";
   const wallet = ethers.Wallet.createRandom();
   let signature = await wallet.signMessage(message);
-  let users = csvToJson
-    .fieldDelimiter(",")
-    .getJsonFromCsv(path.join(__dirname, "users.csv"));
+  var data = JSON.parse(
+    fs.readFileSync(path.join(__dirname, "users.json"), "utf8")
+  );
   const responseCode = 200;
   if (event.queryStringParameters && event.queryStringParameters.signature) {
     signature = event.queryStringParameters.signature;
@@ -15,17 +16,19 @@ module.exports.mainPoolAirdrop = async (event) => {
   const address = ethers.verifyMessage(message, signature);
   let user = null;
   if (address) {
-    user = users.filter(
-      (data) => data["address"].toLowerCase() === address.toLowerCase()
-    )[0];
+    user = data["users"][address.toLowerCase()];
   }
+  const result = {
+    market: data["market"],
+    ...user,
+  };
   const response = {
     statusCode: responseCode,
     headers: {
       "content-type": "application/json",
       "Access-Control-Allow-Origin": "*",
     },
-    body: JSON.stringify(user),
+    body: JSON.stringify(result),
   };
 
   return response;
