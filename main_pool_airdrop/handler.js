@@ -3,7 +3,8 @@ const path = require("path");
 var fs = require("fs");
 
 module.exports.mainPoolAirdrop = async (event) => {
-  const message = "Please sign to read your airdrop.";
+  const message =
+    "Please sign this message to access the info of your compensation regarding the USP hack.";
   const wallet = ethers.Wallet.createRandom();
   let signature = await wallet.signMessage(message);
   var data = JSON.parse(
