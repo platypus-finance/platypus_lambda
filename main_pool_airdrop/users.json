@@ -24,230 +24,249 @@
       "afterAttack": {
         "totalAdjustedAmount": -205066.8291587967,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xdacef9a212086a0abd61df1d6f49753fae8cf300e61ac2ef4ba323936337628c",
               "amount": 0.0,
               "block_number": 26343634,
               "from": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 12,
               "adjustment": -0.0,
               "token": "USDC"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xdacef9a212086a0abd61df1d6f49753fae8cf300e61ac2ef4ba323936337628c",
               "amount": 9.999992,
               "block_number": 26343634,
               "from": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
               "to": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
+              "action": "LP_TRANSFER",
               "log_index": 51,
               "adjustment": 9.999992,
               "token": "USDC"
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0xdacef9a212086a0abd61df1d6f49753fae8cf300e61ac2ef4ba323936337628c",
               "sender": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
               "token": "USDC",
               "amount": 8.826123,
               "liquidity": 9.999992,
               "block_number": 26343634,
+              "action": "POOL_WITHDRAW",
               "log_index": 57,
               "adjustment": -8.826123
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x08785af564f3e159067916539affc9798220c10931370f1e7a8fc16396d553fa",
               "amount": 0.0,
               "block_number": 26344312,
               "from": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 5,
               "adjustment": -0.0,
               "token": "USP"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x08785af564f3e159067916539affc9798220c10931370f1e7a8fc16396d553fa",
               "amount": 80799.5563040923,
               "block_number": 26344312,
               "from": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
               "to": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
+              "action": "LP_TRANSFER",
               "log_index": 44,
               "adjustment": 80799.5563040923,
               "token": "USP"
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x08785af564f3e159067916539affc9798220c10931370f1e7a8fc16396d553fa",
               "sender": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
               "token": "USP",
               "amount": 80799.5563040923,
               "liquidity": 80799.5563040923,
               "block_number": 26344312,
+              "action": "POOL_WITHDRAW",
               "log_index": 50,
               "adjustment": -80799.5563040923
             }
-          },
-          {
-            "USP_TOKEN_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x08785af564f3e159067916539affc9798220c10931370f1e7a8fc16396d553fa",
               "amount": 80799.5563040923,
               "block_number": 26344312,
               "from": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
               "to": "0xc710ceb18d800fbacbb7f0c236ce110dcedea2c9",
+              "action": "USP_TOKEN_TRANSFER",
               "log_index": 51,
               "adjustment": -80799.5563040923
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xb3a25f712e1364e8db299a329cb5d243bc4fd365085e2be7007934d9a1d31cd3",
               "amount": 0.0,
               "block_number": 26346069,
               "from": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 15,
               "adjustment": -0.0,
               "token": "USP"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xb3a25f712e1364e8db299a329cb5d243bc4fd365085e2be7007934d9a1d31cd3",
               "amount": 10009.547219149308,
               "block_number": 26346069,
               "from": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
               "to": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
+              "action": "LP_TRANSFER",
               "log_index": 54,
               "adjustment": 10009.547219149308,
               "token": "USP"
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0xb3a25f712e1364e8db299a329cb5d243bc4fd365085e2be7007934d9a1d31cd3",
               "sender": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
               "token": "USP",
               "amount": 10009.547219149308,
               "liquidity": 10009.547219149308,
               "block_number": 26346069,
+              "action": "POOL_WITHDRAW",
               "log_index": 60,
               "adjustment": -10009.547219149308
             }
-          },
-          {
-            "USP_TOKEN_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xb3a25f712e1364e8db299a329cb5d243bc4fd365085e2be7007934d9a1d31cd3",
               "amount": 10009.547219149308,
               "block_number": 26346069,
               "from": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
               "to": "0x977a79e38036d2b05a5ed9582fffaa934f528260",
+              "action": "USP_TOKEN_TRANSFER",
               "log_index": 61,
               "adjustment": -10009.547219149308
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x24babfbe3337b5c9283391c4e8e05b50726ca1ea095259efcb65f0bb036db1b1",
               "amount": 0.0,
               "block_number": 26346078,
               "from": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 6,
               "adjustment": -0.0,
               "token": "USP"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x24babfbe3337b5c9283391c4e8e05b50726ca1ea095259efcb65f0bb036db1b1",
               "amount": 70035.44511724338,
               "block_number": 26346078,
               "from": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
               "to": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
+              "action": "LP_TRANSFER",
               "log_index": 45,
               "adjustment": 70035.44511724338,
               "token": "USP"
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x24babfbe3337b5c9283391c4e8e05b50726ca1ea095259efcb65f0bb036db1b1",
               "sender": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
               "token": "USP",
               "amount": 70035.44511724338,
               "liquidity": 70035.44511724338,
               "block_number": 26346078,
+              "action": "POOL_WITHDRAW",
               "log_index": 51,
               "adjustment": -70035.44511724338
             }
-          },
-          {
-            "USP_TOKEN_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x24babfbe3337b5c9283391c4e8e05b50726ca1ea095259efcb65f0bb036db1b1",
               "amount": 70035.44511724338,
               "block_number": 26346078,
               "from": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
               "to": "0xc710ceb18d800fbacbb7f0c236ce110dcedea2c9",
+              "action": "USP_TOKEN_TRANSFER",
               "log_index": 52,
               "adjustment": -70035.44511724338
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x614b70c754a4638a154ee17cdf66cb98f6e763ba16440ac25cd072aea53727cb",
               "amount": 0.0,
               "block_number": 26346234,
               "from": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 19,
               "adjustment": -0.0,
               "token": "USP"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x614b70c754a4638a154ee17cdf66cb98f6e763ba16440ac25cd072aea53727cb",
               "amount": 44223.45438731171,
               "block_number": 26346234,
               "from": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
               "to": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
+              "action": "LP_TRANSFER",
               "log_index": 58,
               "adjustment": 44223.45438731171,
               "token": "USP"
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x614b70c754a4638a154ee17cdf66cb98f6e763ba16440ac25cd072aea53727cb",
               "sender": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
               "token": "USP",
               "amount": 44223.45438731171,
               "liquidity": 44223.45438731171,
               "block_number": 26346234,
+              "action": "POOL_WITHDRAW",
               "log_index": 64,
               "adjustment": -44223.45438731171
             }
-          },
-          {
-            "USP_TOKEN_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x614b70c754a4638a154ee17cdf66cb98f6e763ba16440ac25cd072aea53727cb",
               "amount": 44223.45438731171,
               "block_number": 26346234,
               "from": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
               "to": "0x3a3cbd8556d60562d410a5cd1881e95bfcdefe62",
+              "action": "USP_TOKEN_TRANSFER",
               "log_index": 65,
               "adjustment": -44223.45438731171
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -284,8 +303,8 @@
       "afterAttack": {
         "totalAdjustedAmount": 48714.589408,
         "transactionAfterExploit": [
-          {
-            "POOL_SWAP": {
+          [
+            {
               "tx_id": "0x46750dba3202b1a59c97b6b5649a32ccc197c8ee300c205de94c946d50df220c",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "block_number": 26343930,
@@ -293,12 +312,13 @@
               "to_token": "USP",
               "from_amount": 3106.417992,
               "to_amount": 3772.061584540916,
+              "action": "POOL_SWAP",
               "log_index": 15,
               "adjustment": 3106.417992
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0xc66f7ed54538d521334331680dead761212ce438666af7b2b7fcc99c7617df76",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "block_number": 26343975,
@@ -306,12 +326,13 @@
               "to_token": "USP",
               "from_amount": 2000.0,
               "to_amount": 2425.768503141012,
+              "action": "POOL_SWAP",
               "log_index": 10,
               "adjustment": 2000.0
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0xb61606c9ab922da7944a3e8046f1dd2ff6770f9bab195d12bccef39f100bfb54",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "block_number": 26344058,
@@ -319,68 +340,74 @@
               "to_token": "USP",
               "from_amount": 7995.2,
               "to_amount": 9669.074841431746,
+              "action": "POOL_SWAP",
               "log_index": 42,
               "adjustment": 7995.2
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xf6fefad537df92842a5f3d259bb7ea65f5b7b05705b1214757844ea22db657ee",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "amount": 2000.0,
               "block_number": 26344089,
               "collateral": "USDC.e",
+              "action": "USP_REPAY",
               "log_index": 27,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x8c84fc07c04d12623059f3a97268ed947f813f6c2f69d17d09c4447a41a227dc",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "amount": 2000.0,
               "block_number": 26344093,
               "collateral": "USDC",
+              "action": "USP_REPAY",
               "log_index": 2,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x5fc6f810d060e3b0c642c50e9ac5f173822d44ee2c6574fbf76d96ce47e4fba9",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "amount": 2000.0,
               "block_number": 26344113,
               "collateral": "USDT.e",
+              "action": "USP_REPAY",
               "log_index": 13,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x072c1d410633d0060fe5a41c303ec21235ce89c37af05fb846ca909fd151422d",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "amount": 2000.0,
               "block_number": 26344124,
               "collateral": "USDT",
+              "action": "USP_REPAY",
               "log_index": 4,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x7ae14cb505cd126ebfcc3b234b5fc30a8146182974a56dd51ad69d746a911afd",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "token": "USDC",
               "amount": 1205.043106,
               "liquidity": 1361.275417,
               "block_number": 26344209,
+              "action": "POOL_WITHDRAW",
               "log_index": 9,
               "adjustment": -1205.043106
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0x3765ed9c43c902701229ab93b9c687ed8a2cf8178da3999a4b75d8d008d86a0a",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "block_number": 26344219,
@@ -388,35 +415,38 @@
               "to_token": "USP",
               "from_amount": 1205.043106,
               "to_amount": 1459.307281263386,
+              "action": "POOL_SWAP",
               "log_index": 8,
               "adjustment": 1205.043106
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xd78cc2d80e514d1c36a5eb3829df2365e374684a82b7fbd13c927bcac96d3354",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "amount": 9326.0,
               "block_number": 26344234,
               "collateral": "USDC",
+              "action": "USP_REPAY",
               "log_index": 5,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0xf55d1d1533b3f9ac57a2983440620b457089b93da4860eee533deeda034804b7",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "token": "USDC",
               "amount": 8338.449722,
               "liquidity": 9433.638638,
               "block_number": 26344271,
+              "action": "POOL_WITHDRAW",
               "log_index": 13,
               "adjustment": -8338.449722
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0xf8bfd4de3a2f5672613a0790494322e7dff2e1eefeafb84261f7c89aa80ef8fc",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "block_number": 26344285,
@@ -424,35 +454,38 @@
               "to_token": "USP",
               "from_amount": 8338.449722,
               "to_amount": 11503.677566364007,
+              "action": "POOL_SWAP",
               "log_index": 22,
               "adjustment": 8338.449722
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xba4b582fd691629f5c79e7baa40ab72f9374e3df6bfb238430239f29edf16254",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "amount": 11503.0,
               "block_number": 26344297,
               "collateral": "USDC",
+              "action": "USP_REPAY",
               "log_index": 1,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x1b2513af2c735a7b0c1a3b1ebfd56efc5743d8456d8036ad39ac3be2f4419eb6",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "token": "USDC",
               "amount": 8742.509408,
               "liquidity": 11279.936485,
               "block_number": 26344327,
+              "action": "POOL_WITHDRAW",
               "log_index": 11,
               "adjustment": -8742.509408
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0x27dac2e2c82038f5d61d934822172df445b2c22fdbda336fac4ef14d27ef0473",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "block_number": 26344337,
@@ -460,35 +493,38 @@
               "to_token": "USP",
               "from_amount": 8742.509408,
               "to_amount": 11998.308609197664,
+              "action": "POOL_SWAP",
               "log_index": 18,
               "adjustment": 8742.509408
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xd7c7f37ae6aa4f7462b9a5f874cc5afc06258aae94c4a6e0ea69f4b619c31be0",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "amount": 11999.0,
               "block_number": 26344351,
               "collateral": "USDC",
+              "action": "USP_REPAY",
               "log_index": 10,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x28d723d0516ef7cd07fabce528cb94a9924cf2ca3c8aef8aa984323bb7f12810",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "token": "USDC",
               "amount": 8893.940715,
               "liquidity": 11405.269113,
               "block_number": 26344399,
+              "action": "POOL_WITHDRAW",
               "log_index": 15,
               "adjustment": -8893.940715
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0x1264e3c5addc340cfcfc3e4d0720e9a394dcf5153a4fb6f1de34db8b98a03b9d",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "block_number": 26344405,
@@ -496,12 +532,13 @@
               "to_token": "USP",
               "from_amount": 8893.0,
               "to_amount": 12185.351875193526,
+              "action": "POOL_SWAP",
               "log_index": 21,
               "adjustment": 8893.0
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0x2445aa4178e6420bd919b04855cb7ea16a12b04dc38a9f2acac01f579f0a7063",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "block_number": 26344513,
@@ -509,35 +546,38 @@
               "to_token": "USP",
               "from_amount": 22410.455453,
               "to_amount": 30252.43514326829,
+              "action": "POOL_SWAP",
               "log_index": 22,
               "adjustment": 22410.455453
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x94e7a3c1bbadb95dc2fd8179e8423fb24190e2108560eaa498672e3f6c3d00aa",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "amount": 42437.0,
               "block_number": 26344531,
               "collateral": "USDC",
+              "action": "USP_REPAY",
               "log_index": 1,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x07870705cfc9493fbfe48d21b97eaeeb4cffebcf4d6aee15975b63633ab51978",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "token": "USDC",
               "amount": 32722.309877,
               "liquidity": 42085.443027,
               "block_number": 26344551,
+              "action": "POOL_WITHDRAW",
               "log_index": 30,
               "adjustment": -32722.309877
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0x58266665033e1affba6795e0f53cfb232de04a5315b9a9060d50c2e555972d79",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "block_number": 26344562,
@@ -545,35 +585,38 @@
               "to_token": "USP",
               "from_amount": 32722.309877,
               "to_amount": 43777.24348206165,
+              "action": "POOL_SWAP",
               "log_index": 6,
               "adjustment": 32722.309877
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x109fa301f538d0b81938d43007880edee9cdb3caa8cfa7a7d2f640e868dfdfc4",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "amount": 43778.0,
               "block_number": 26344574,
               "collateral": "USDC",
+              "action": "USP_REPAY",
               "log_index": 2,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x73c9f2ac5e0b26d2c76d0a1e9f45cc5f943518adc3fd31df41e527f09a95ec7b",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "token": "USDC",
               "amount": 34132.291026,
               "liquidity": 43604.624872,
               "block_number": 26344605,
+              "action": "POOL_WITHDRAW",
               "log_index": 14,
               "adjustment": -34132.291026
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0xf213d97a5cfa7399a395e7fe22d56b7b428cd5d31abec588751092ee79839a81",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "block_number": 26344631,
@@ -581,35 +624,38 @@
               "to_token": "USP",
               "from_amount": 34132.291026,
               "to_amount": 45397.887096457314,
+              "action": "POOL_SWAP",
               "log_index": 10,
               "adjustment": 34132.291026
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xc2b1c239f06d6c771f4d94f6e84834dbaf2ed7a3276a1f4304957d85d263d0ae",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "amount": 7842.195505394653,
               "block_number": 26344665,
               "collateral": "USDC",
+              "action": "USP_REPAY",
               "log_index": 2,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x16b842a743380e8fa128947296e9f134e756fa2fa8d923457cc9d02e8176e4c3",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "token": "USDC",
               "amount": 12322.471271,
               "liquidity": 16957.354117,
               "block_number": 26344690,
+              "action": "POOL_WITHDRAW",
               "log_index": 4,
               "adjustment": -12322.471271
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0x2c688fa72a502987e95255a0d3ce2d96228aa9f4336ac3adaecf98369ae0fa65",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "block_number": 26344699,
@@ -617,35 +663,38 @@
               "to_token": "USP",
               "from_amount": 12322.471271,
               "to_amount": 17776.538896414677,
+              "action": "POOL_SWAP",
               "log_index": 58,
               "adjustment": 12322.471271
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x4f0c0897a0e6e404e20e70a92faf76a916913b895899fc74b76c0e8f431d7a0f",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "amount": 42858.80134027097,
               "block_number": 26344722,
               "collateral": "DAI.e",
+              "action": "USP_REPAY",
               "log_index": 1,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0xdcf6ce033aa96539cf250e6a5bfe35339895104632cc4fea61e97906fca4cf3e",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "token": "DAI.e",
               "amount": 1641.4887485228871,
               "liquidity": 2286.866425780633,
               "block_number": 26344794,
+              "action": "POOL_WITHDRAW",
               "log_index": 38,
               "adjustment": -1641.4887485228871
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0xcc4004821160f702c9bdc422bec4b31efce846a8eb3055a96a9922d86b40a819",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "block_number": 26344806,
@@ -653,35 +702,38 @@
               "to_token": "USP",
               "from_amount": 1641.4887485228871,
               "to_amount": 2397.300251091823,
+              "action": "POOL_SWAP",
               "log_index": 9,
               "adjustment": 1641.4887485228871
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x434c87639076c9eaf01377bf6182837d9d2a2f660e2138f71c8378b31a0b464b",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "amount": 10000.0,
               "block_number": 26344828,
               "collateral": "USDT",
+              "action": "USP_REPAY",
               "log_index": 25,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0xf1961cedef3a6aa93cebbde6d4d7a6934d1d0ff8092146f5bf1ab5325d8efb48",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "token": "USDT",
               "amount": 7143.518075,
               "liquidity": 10590.716316,
               "block_number": 26344890,
+              "action": "POOL_WITHDRAW",
               "log_index": 5,
               "adjustment": -7143.518075
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0x11519d8128b9d22d3bc5e6658894c1baf6e60867de7b80af4a3ffb2cb52df5a2",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "block_number": 26344899,
@@ -689,12 +741,13 @@
               "to_token": "USP",
               "from_amount": 7143.518075,
               "to_amount": 10875.931236797927,
+              "action": "POOL_SWAP",
               "log_index": 38,
               "adjustment": 7143.518075
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0xec31260a5ddf4038c5c0c1ab94def9f0fc9a7358a5e05a7ea21790db7159f1d1",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "block_number": 26344908,
@@ -702,47 +755,51 @@
               "to_token": "USP",
               "from_amount": 13203.456678,
               "to_amount": 19970.98876099333,
+              "action": "POOL_SWAP",
               "log_index": 5,
               "adjustment": 13203.456678
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x2deda2d4c4210ef38b35291a7380fef5862b814632501a8b8834bd533df9a387",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "amount": 35717.0,
               "block_number": 26344923,
               "collateral": "USDT",
+              "action": "USP_REPAY",
               "log_index": 10,
               "adjustment": 0.0
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x7e8476e066550b7a8961c5d9bb1a790bc5415027a90b7e37a3f66d27e8d59f61",
               "amount": 35320.038914,
               "block_number": 26344997,
               "from": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 4,
               "adjustment": 0.0,
               "token": "USDT"
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x1a399c886acbbc913bf30956fa8108d9faa0ef206a324c91ea844b4db6903f6e",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "token": "USDT",
               "amount": 7343.758893,
               "liquidity": 10961.391387,
               "block_number": 26345036,
+              "action": "POOL_WITHDRAW",
               "log_index": 9,
               "adjustment": -7343.758893
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0x6fa681225048614067333dd9f942454e2b535d56e7b6e9c7ff3564374688de6b",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "block_number": 26345049,
@@ -750,45 +807,49 @@
               "to_token": "USP",
               "from_amount": 7343.758893,
               "to_amount": 11216.436294812764,
+              "action": "POOL_SWAP",
               "log_index": 10,
               "adjustment": 7343.758893
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xb376a9a68b78443404784fe558fa262dcb1f5cb9b1e9f5ec69e12337448dc855",
               "amount": 43450.46208983204,
               "block_number": 26345116,
               "from": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 14,
               "adjustment": 0.0,
               "token": "DAI.e"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xc8e0dce7ffe1a21d84c2eb9bd032f0435ee67f849ea781b9c0838a0537f59915",
               "amount": 9974.866162,
               "block_number": 26345136,
               "from": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 4,
               "adjustment": 0.0,
               "token": "USDT"
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x8890925c167f2df8cd87c8717ba355e6150c6f699f8277247c191d3c159ae40a",
               "sender": "0xcba1a275e2d858ecffaf7a87f606f74b719a8a93",
               "amount": 336.0,
               "block_number": 26356128,
               "collateral": "BUSD",
+              "action": "USP_REPAY",
               "log_index": 21,
               "adjustment": 0.0
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -825,40 +886,43 @@
       "afterAttack": {
         "totalAdjustedAmount": 30109.12490724338,
         "transactionAfterExploit": [
-          {
-            "USP_TOKEN_TRANSFER": {
+          [
+            {
               "tx_id": "0x24babfbe3337b5c9283391c4e8e05b50726ca1ea095259efcb65f0bb036db1b1",
               "amount": 70035.44511724338,
               "block_number": 26346078,
               "from": "0xc710ceb18d800fbacbb7f0c236ce110dcedea2c9",
               "to": "0xca41a5fccf73d0793bdf8657ed4010ec40f10f2c",
+              "action": "USP_TOKEN_TRANSFER",
               "log_index": 55,
               "adjustment": 70035.44511724338
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xe8508b202105a2fca4e618ffd3a8ac7d25922684a5381def8cf8d61b5e1c12ed",
               "sender": "0xca41a5fccf73d0793bdf8657ed4010ec40f10f2c",
               "amount": 69537.0,
               "block_number": 26346101,
               "collateral": "USDC.e",
+              "action": "USP_REPAY",
               "log_index": 5,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0xd262ef2989b78be321a3a52a45f2976d1282c5903dfc6694c2d5495d4440e252",
               "sender": "0xca41a5fccf73d0793bdf8657ed4010ec40f10f2c",
               "token": "USDC.e",
               "amount": 39926.32021,
               "liquidity": 67046.226354,
               "block_number": 26346194,
+              "action": "POOL_WITHDRAW",
               "log_index": 22,
               "adjustment": -39926.32021
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -895,19 +959,20 @@
       "afterAttack": {
         "totalAdjustedAmount": 29626.686636311708,
         "transactionAfterExploit": [
-          {
-            "USP_TOKEN_TRANSFER": {
+          [
+            {
               "tx_id": "0x614b70c754a4638a154ee17cdf66cb98f6e763ba16440ac25cd072aea53727cb",
               "amount": 44223.45438731171,
               "block_number": 26346234,
               "from": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
               "to": "0x3a3cbd8556d60562d410a5cd1881e95bfcdefe62",
+              "action": "USP_TOKEN_TRANSFER",
               "log_index": 65,
               "adjustment": 44223.45438731171
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0x17de953c9fb0204e423f218836f9a9c511b21c772313e6cb53a11fb8c9be904c",
               "sender": "0x3a3cbd8556d60562d410a5cd1881e95bfcdefe62",
               "block_number": 26346300,
@@ -915,10 +980,11 @@
               "to_token": "USDC",
               "from_amount": 44000.0,
               "to_amount": 14596.767751,
+              "action": "POOL_SWAP",
               "log_index": 21,
               "adjustment": -14596.767751
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -955,53 +1021,57 @@
       "afterAttack": {
         "totalAdjustedAmount": 20355.4683000923,
         "transactionAfterExploit": [
-          {
-            "USP_TOKEN_TRANSFER": {
+          [
+            {
               "tx_id": "0x08785af564f3e159067916539affc9798220c10931370f1e7a8fc16396d553fa",
               "amount": 80799.5563040923,
               "block_number": 26344312,
               "from": "0xc710ceb18d800fbacbb7f0c236ce110dcedea2c9",
               "to": "0x370d72bd11ecbc9535d07c0ca969ccb6b2485f2a",
+              "action": "USP_TOKEN_TRANSFER",
               "log_index": 54,
               "adjustment": 80799.5563040923
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xc6fba4e129ea5b2107e11f2d3b12a314212a6c2e2832e02365aaf80f221e68a3",
               "sender": "0x370d72bd11ecbc9535d07c0ca969ccb6b2485f2a",
               "amount": 78924.0,
               "block_number": 26344357,
               "collateral": "USDC",
+              "action": "USP_REPAY",
               "log_index": 5,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xf589e0ecc2ff6a229e9857ce9fb36cb58d4adc7918d21b68a308a7b6b587c7a0",
               "sender": "0x370d72bd11ecbc9535d07c0ca969ccb6b2485f2a",
               "amount": 1735.995470661948,
               "block_number": 26344377,
               "collateral": "USDC",
+              "action": "USP_REPAY",
               "log_index": 2,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x18b4bda8ab53fde6908f668b98250a108f64452680195232c19d56f7cf5cbd43",
-              "sender": "0x370d72bd11ecbc9535d07c0ca969ccb6b2485f2a",
+              "sender": "0x370d72bd11ecbc9535d07c0ca9f69ccb6b2485f2a",
               "token": "USDC",
               "amount": 60377.348356,
               "liquidity": 87873.905001,
               "block_number": 26344742,
+              "action": "POOL_WITHDRAW",
               "log_index": 4,
               "adjustment": -60377.348356
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0x073e8effdef2f04b22e442cb93a673731e5bdd1ed8f5ffb72f1b164ea5d3f220",
               "sender": "0x370d72bd11ecbc9535d07c0ca969ccb6b2485f2a",
               "block_number": 26344939,
@@ -1009,10 +1079,11 @@
               "to_token": "USDC",
               "from_amount": 139.56083343035783,
               "to_amount": 66.739648,
+              "action": "POOL_SWAP",
               "log_index": 6,
               "adjustment": -66.739648
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -1049,30 +1120,32 @@
       "afterAttack": {
         "totalAdjustedAmount": 18554.512805000002,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xcad9e3dee202bab2772b11d1371f91090d8154bd3762e75b535ae512063429c5",
               "amount": 46297.254457,
               "block_number": 26346300,
               "from": "0xc204501f33ec40b8610bb2d753dd540ec6ea2646",
               "to": "0x2a368ecff594616a18eda1307e45808de36598ee",
+              "action": "LP_TRANSFER",
               "log_index": 33,
               "adjustment": 46297.254457,
               "token": "USDT"
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0xcad9e3dee202bab2772b11d1371f91090d8154bd3762e75b535ae512063429c5",
               "sender": "0x2a368ecff594616a18eda1307e45808de36598ee",
               "token": "USDT",
               "amount": 27742.741652,
               "liquidity": 46297.254457,
               "block_number": 26346300,
+              "action": "POOL_WITHDRAW",
               "log_index": 40,
               "adjustment": -27742.741652
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -1109,19 +1182,20 @@
       "afterAttack": {
         "totalAdjustedAmount": 10029.547219149308,
         "transactionAfterExploit": [
-          {
-            "USP_TOKEN_TRANSFER": {
+          [
+            {
               "tx_id": "0xb3a25f712e1364e8db299a329cb5d243bc4fd365085e2be7007934d9a1d31cd3",
               "amount": 10009.547219149308,
               "block_number": 26346069,
               "from": "0x8b3d9f0017fa369cd8c164d0cc078bf4ca588ae5",
               "to": "0x977a79e38036d2b05a5ed9582fffaa934f528260",
+              "action": "USP_TOKEN_TRANSFER",
               "log_index": 61,
               "adjustment": 10009.547219149308
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0xd18fd03917c1e48d04b2cef953cf160870fc2df50e651b6f1689df62c05fb96f",
               "sender": "0x977a79e38036d2b05a5ed9582fffaa934f528260",
               "block_number": 26346130,
@@ -1129,21 +1203,23 @@
               "to_token": "USP",
               "from_amount": 20.0,
               "to_amount": 31.31344668074924,
+              "action": "POOL_SWAP",
               "log_index": 6,
               "adjustment": 20.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x3ebe58cec3572a9bfac8feb64a318d73e3a5e6a0e49800e7cb23deec31e70e40",
               "sender": "0x977a79e38036d2b05a5ed9582fffaa934f528260",
               "amount": 1003.0,
               "block_number": 26346457,
               "collateral": "USDC",
+              "action": "USP_REPAY",
               "log_index": 6,
               "adjustment": 0.0
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -1180,8 +1256,8 @@
       "afterAttack": {
         "totalAdjustedAmount": 7364.96,
         "transactionAfterExploit": [
-          {
-            "POOL_SWAP": {
+          [
+            {
               "tx_id": "0x43de033033dbdacbc3859c611469ec2952819e0d1ec227bd26e29a8660094df2",
               "sender": "0x6c4529e615b21b662b4103a916188c0813ecadde",
               "block_number": 26344330,
@@ -1189,58 +1265,63 @@
               "to_token": "USP",
               "from_amount": 7364.96,
               "to_amount": 10164.559092839858,
+              "action": "POOL_SWAP",
               "log_index": 10,
               "adjustment": 7364.96
             }
-          },
-          {
-            "POOL_DEPOSIT": {
+          ],
+          [
+            {
               "tx_id": "0xc25ae091b9a3ac3f79f73f7b06177fd1b0b4cd7aafb6556e84ac16b99cd2c711",
               "sender": "0x6c4529e615b21b662b4103a916188c0813ecadde",
               "token": "USP",
               "amount": 10164.559092839858,
               "liquidity": 10164.559024285389,
               "block_number": 26344614,
+              "action": "POOL_DEPOSIT",
               "log_index": 15,
               "adjustment": 0.0
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xc9ecb73694eabe11fa5abf0101d2332e3d0ffca61ed49cc84f23f3db5a7a1a98",
               "amount": 10164.559024285389,
               "block_number": 26344641,
               "from": "0x6c4529e615b21b662b4103a916188c0813ecadde",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 16,
               "adjustment": 0.0,
               "token": "USP"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xc50cd14f3a9436dbfac9a9564f85ed77619e6517b04d0f9fa4a6b196660d993f",
               "amount": 10164.559024285389,
               "block_number": 26369296,
               "from": "0x6c4529e615b21b662b4103a916188c0813ecadde",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 59,
               "adjustment": 0.0,
               "token": "USP"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xb16541c3799a6cac935b49f6cc7c1f60e7dc8d0e2f77d8cb81c8e9faf150fa48",
               "amount": 10164.559024285389,
               "block_number": 26374969,
               "from": "0x6c4529e615b21b662b4103a916188c0813ecadde",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 23,
               "adjustment": 0.0,
               "token": "USP"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -1277,30 +1358,32 @@
       "afterAttack": {
         "totalAdjustedAmount": 5277.865317341028,
         "transactionAfterExploit": [
-          {
-            "USP_TOKEN_TRANSFER": {
+          [
+            {
               "tx_id": "0x3a2aefda8497d428deeada89f4b342d1abad6c37e62cc89114ddf033fa12c616",
               "amount": 35475.73946234103,
               "block_number": 26345680,
               "from": "0x09f66ca1d7fd893c4005af567f41ac7541b247af",
               "to": "0x5f981f917fdc4e085c05d2530556b10cd77a853a",
+              "action": "USP_TOKEN_TRANSFER",
               "log_index": 63,
               "adjustment": 35475.73946234103
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xc99a0578de0112c9621efa5d2b891e42c2bd7e592c53fa0fa129936aaf9efeb4",
               "sender": "0x5f981f917fdc4e085c05d2530556b10cd77a853a",
               "amount": 8445.289029542313,
               "block_number": 26345709,
               "collateral": "USDC.e",
+              "action": "USP_REPAY",
               "log_index": 19,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0x9bc3c128d5ec1cc9d0a9e9a01ac8acb743c5f8b89f156c741b1680653fb5f83e",
               "sender": "0x5f981f917fdc4e085c05d2530556b10cd77a853a",
               "block_number": 26345743,
@@ -1308,24 +1391,26 @@
               "to_token": "USP",
               "from_amount": 47.074982,
               "to_amount": 73.11963176787293,
+              "action": "POOL_SWAP",
               "log_index": 41,
               "adjustment": 47.074982
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x5e5e160304fbf20add05e525e3718075c7d1d86c05d2eb73b576ec56f474541f",
               "sender": "0x5f981f917fdc4e085c05d2530556b10cd77a853a",
               "token": "USDC.e",
               "amount": 7375.860518,
               "liquidity": 11149.571887,
               "block_number": 26345763,
+              "action": "POOL_WITHDRAW",
               "log_index": 19,
               "adjustment": -7375.860518
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0xf8ac4dac359eed1506689e6f3e1eea096733e775c0d03b576a60cbb6beb858ce",
               "sender": "0x5f981f917fdc4e085c05d2530556b10cd77a853a",
               "block_number": 26345783,
@@ -1333,33 +1418,36 @@
               "to_token": "USP",
               "from_amount": 100.0,
               "to_amount": 155.6267980854119,
+              "action": "POOL_SWAP",
               "log_index": 91,
               "adjustment": 100.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x9053d8ef1e4d6afbbf2f717edbfc224ef3711163bdec12af5f90be72fd84066e",
               "sender": "0x5f981f917fdc4e085c05d2530556b10cd77a853a",
               "amount": 27067.5475470404,
               "block_number": 26345796,
               "collateral": "USDC",
+              "action": "USP_REPAY",
               "log_index": 31,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0xb852441665422f966bacb14947d925db615aa1c65a7825c2a144264afac5a27c",
               "sender": "0x5f981f917fdc4e085c05d2530556b10cd77a853a",
               "token": "USDC",
               "amount": 22969.088609,
               "liquidity": 35734.389343,
               "block_number": 26345809,
+              "action": "POOL_WITHDRAW",
               "log_index": 8,
               "adjustment": -22969.088609
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -1396,76 +1484,82 @@
       "afterAttack": {
         "totalAdjustedAmount": -3130.451394360717,
         "transactionAfterExploit": [
-          {
-            "POOL_WITHDRAW": {
+          [
+            {
               "tx_id": "0x79ff35e8aef4a08f268a6725a26eb65dc7f601a33f0e745e7247fc352faab7fd",
               "sender": "0x5a7fd23998ce9db36f3ce67545dfbc7ef7432cc4",
               "token": "USP",
               "amount": 3646.0,
               "liquidity": 3646.0,
               "block_number": 26343691,
+              "action": "POOL_WITHDRAW",
               "log_index": 4,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xb062b1c41b48c32afae0f2969254180a23ae268ef81648aec030e4dbca12e93e",
               "sender": "0x5a7fd23998ce9db36f3ce67545dfbc7ef7432cc4",
               "amount": 521.0,
               "block_number": 26343721,
               "collateral": "USDC.e",
+              "action": "USP_REPAY",
               "log_index": 6,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x142e452e3ad90a2a5656701c5d8d04fee8401ec7a4cbf44aca185f6315fdfd3a",
               "sender": "0x5a7fd23998ce9db36f3ce67545dfbc7ef7432cc4",
               "amount": 930.0,
               "block_number": 26343750,
               "collateral": "USDT.e",
+              "action": "USP_REPAY",
               "log_index": 38,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x4ad9a30bc2daa30fa97230b23995d5b034eb0a21decfe56cc69152fc10940b1e",
               "sender": "0x5a7fd23998ce9db36f3ce67545dfbc7ef7432cc4",
               "amount": 340.0304122547962,
               "block_number": 26343757,
               "collateral": "BUSD",
+              "action": "USP_REPAY",
               "log_index": 4,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xf3cfbf5062672c64459ddabc02000b1c3d3c6dc1e07b4c1d130614c69ae07efc",
               "sender": "0x5a7fd23998ce9db36f3ce67545dfbc7ef7432cc4",
               "amount": 1649.0,
               "block_number": 26343780,
               "collateral": "USDT",
+              "action": "USP_REPAY",
               "log_index": 1,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x4d2d4d3d36f581ad482f9c1b4821c7d329ba4414251726c36da237730f1efecc",
               "sender": "0x5a7fd23998ce9db36f3ce67545dfbc7ef7432cc4",
               "token": "USDC.e",
               "amount": 515.114245,
               "liquidity": 583.538352,
               "block_number": 26343832,
+              "action": "POOL_WITHDRAW",
               "log_index": 10,
               "adjustment": -515.114245
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0xca5e0a871bc2f9c0b430da9de8196430188a44b4d693d7377637eec793b921de",
               "sender": "0x5a7fd23998ce9db36f3ce67545dfbc7ef7432cc4",
               "block_number": 26343851,
@@ -1473,35 +1567,38 @@
               "to_token": "USP",
               "from_amount": 515.114245,
               "to_amount": 626.0548427675839,
+              "action": "POOL_SWAP",
               "log_index": 15,
               "adjustment": 515.114245
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xc0bc3ac25043b69c42734b0f30cf69421c0dbcda4a733d562610692707786c72",
               "sender": "0x5a7fd23998ce9db36f3ce67545dfbc7ef7432cc4",
               "amount": 541.161938475232,
               "block_number": 26343860,
               "collateral": "USDT.e",
+              "action": "USP_REPAY",
               "log_index": 3,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x181acdcf77dc719c36b0a80db1d27d5f266e701779c2827a0cbcffaaf58af752",
               "sender": "0x5a7fd23998ce9db36f3ce67545dfbc7ef7432cc4",
               "token": "USDT",
               "amount": 1614.611711,
               "liquidity": 1830.338532,
               "block_number": 26343909,
+              "action": "POOL_WITHDRAW",
               "log_index": 4,
               "adjustment": -1614.611711
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0x3c42f569301a443d508c2b5d35dfd1c7d3b7195fd026df523957013e73d7df43",
               "sender": "0x5a7fd23998ce9db36f3ce67545dfbc7ef7432cc4",
               "block_number": 26343970,
@@ -1509,80 +1606,87 @@
               "to_token": "USP",
               "from_amount": 1614.611711,
               "to_amount": 1959.805340341052,
+              "action": "POOL_SWAP",
               "log_index": 6,
               "adjustment": 1614.611711
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x32086a9da67d96404c46dabe1ea3a4b3518a89194009468726b550101985f595",
               "sender": "0x5a7fd23998ce9db36f3ce67545dfbc7ef7432cc4",
               "amount": 489.1477936453448,
               "block_number": 26343979,
               "collateral": "USDC.e",
+              "action": "USP_REPAY",
               "log_index": 2,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x81e965dd18572326d7f3122a2f0d3c6a532b4a8bbda0227124317f901ffa16fd",
               "sender": "0x5a7fd23998ce9db36f3ce67545dfbc7ef7432cc4",
               "amount": 851.6757809457185,
               "block_number": 26343991,
               "collateral": "USDT",
+              "action": "USP_REPAY",
               "log_index": 1,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x41fdc9516ac6c858cf77e99164160912a9e807373d09e29a06e268ffef2d0790",
               "sender": "0x5a7fd23998ce9db36f3ce67545dfbc7ef7432cc4",
               "token": "USDT.e",
               "amount": 1300.551563,
               "liquidity": 2001.173668,
               "block_number": 26346279,
+              "action": "POOL_WITHDRAW",
               "log_index": 5,
               "adjustment": -1300.551563
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x22450e67a989967b3dca63f28b6ed4e3c00939f303fe4d842a5d38fc3c268ffa",
               "sender": "0x5a7fd23998ce9db36f3ce67545dfbc7ef7432cc4",
               "token": "USDC.e",
               "amount": 464.945264,
               "liquidity": 713.213541,
               "block_number": 26346288,
+              "action": "POOL_WITHDRAW",
               "log_index": 4,
               "adjustment": -464.945264
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x24b1410ab1e96f67d6b8017acf393519a017323d1cf6b20ceb183697d51ed477",
               "sender": "0x5a7fd23998ce9db36f3ce67545dfbc7ef7432cc4",
               "token": "USDT",
               "amount": 1068.425677,
               "liquidity": 1689.543261,
               "block_number": 26346316,
+              "action": "POOL_WITHDRAW",
               "log_index": 31,
               "adjustment": -1068.425677
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x71339802768de7267343be844ea8e5727814ef0a413f977c5ccf319f4be8c99e",
               "sender": "0x5a7fd23998ce9db36f3ce67545dfbc7ef7432cc4",
               "token": "BUSD",
               "amount": 296.52889036071707,
               "liquidity": 469.5559678152197,
               "block_number": 26346334,
+              "action": "POOL_WITHDRAW",
               "log_index": 5,
               "adjustment": -296.52889036071707
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -1619,8 +1723,8 @@
       "afterAttack": {
         "totalAdjustedAmount": 2766.854981,
         "transactionAfterExploit": [
-          {
-            "POOL_SWAP": {
+          [
+            {
               "tx_id": "0x8ed5a5424cdf26dcbe9299995683c80620c9e4cdad5e9054e78dcab86b3aebd9",
               "sender": "0x98f15d6c14e18333d523c3882f1fa922f5841d3b",
               "block_number": 26344361,
@@ -1628,12 +1732,13 @@
               "to_token": "USP",
               "from_amount": 598.219716,
               "to_amount": 822.8184827056739,
+              "action": "POOL_SWAP",
               "log_index": 5,
               "adjustment": 598.219716
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0x5929a95026adba42537f8c48276f82af8a6b84603eaac36f90702ddb79fb12ce",
               "sender": "0x98f15d6c14e18333d523c3882f1fa922f5841d3b",
               "block_number": 26344450,
@@ -1641,34 +1746,37 @@
               "to_token": "USP",
               "from_amount": 1668.635265,
               "to_amount": 2288.000001269273,
+              "action": "POOL_SWAP",
               "log_index": 6,
               "adjustment": 1668.635265
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xe33857a496921a47113f79154d554050d2c089dd391eaedb8db8a41055b31482",
               "sender": "0x98f15d6c14e18333d523c3882f1fa922f5841d3b",
               "amount": 1553.048651638032,
               "block_number": 26344468,
               "collateral": "USDC.e",
+              "action": "USP_REPAY",
               "log_index": 36,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x8480a8452bbcb95272136a41259f085ab196374e6c4c0a73b0289a9171ed0b1a",
               "sender": "0x98f15d6c14e18333d523c3882f1fa922f5841d3b",
               "amount": 1553.0609794838488,
               "block_number": 26344481,
               "collateral": "USDT",
+              "action": "USP_REPAY",
               "log_index": 26,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0xf742154e500c8c15accf52821d735752f60d07e2acd909d6daa8494177678b10",
               "sender": "0x98f15d6c14e18333d523c3882f1fa922f5841d3b",
               "block_number": 26344559,
@@ -1676,10 +1784,11 @@
               "to_token": "USP",
               "from_amount": 500.0,
               "to_amount": 683.842350368347,
+              "action": "POOL_SWAP",
               "log_index": 56,
               "adjustment": 500.0
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -1716,61 +1825,66 @@
       "afterAttack": {
         "totalAdjustedAmount": 1076.2418393119947,
         "transactionAfterExploit": [
-          {
-            "USP_TOKEN_TRANSFER": {
+          [
+            {
               "tx_id": "0x0424d703a2db9f5f4fafe55abf99d0f869b511022e7f1b8ed77691222f2f41e2",
               "amount": 68.63857935037544,
               "block_number": 26344594,
               "from": "0xc590175e458b83680867afd273527ff58f74c02b",
               "to": "0xa1f50ed6656f884df996b7a9a371dd7ef2892ff3",
+              "action": "USP_TOKEN_TRANSFER",
               "log_index": 20,
               "adjustment": 68.63857935037544
             }
-          },
-          {
-            "USP_TOKEN_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xedda29c3d82c072c86bc46f41039a268bc920341cf242bb2033f06f4ab9dfc2e",
               "amount": 104.35677588548728,
               "block_number": 26344643,
               "from": "0xc590175e458b83680867afd273527ff58f74c02b",
               "to": "0xa1f50ed6656f884df996b7a9a371dd7ef2892ff3",
+              "action": "USP_TOKEN_TRANSFER",
               "log_index": 4,
               "adjustment": 104.35677588548728
             }
-          },
-          {
-            "USP_TOKEN_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xa82fc866c82e9f124adc020cda0e9cd63c8c89ecb8eb12d1380a9709eae1d364",
               "amount": 319.28822136042845,
               "block_number": 26344712,
               "from": "0xc590175e458b83680867afd273527ff58f74c02b",
               "to": "0xa1f50ed6656f884df996b7a9a371dd7ef2892ff3",
+              "action": "USP_TOKEN_TRANSFER",
               "log_index": 4,
               "adjustment": 319.28822136042845
             }
-          },
-          {
-            "USP_TOKEN_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xdb776f4877cc340ddbf79741bd79e9c41343098c85f98dcc4c4763772ac341f5",
               "amount": 289.63134671434966,
               "block_number": 26344737,
               "from": "0xc590175e458b83680867afd273527ff58f74c02b",
               "to": "0xa1f50ed6656f884df996b7a9a371dd7ef2892ff3",
+              "action": "USP_TOKEN_TRANSFER",
               "log_index": 6,
               "adjustment": 289.63134671434966
             }
-          },
-          {
-            "USP_TOKEN_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x312f0426e1c7b0dd0b563b0ec46a59c24485a7d411fbd09e4eadc2354fa46b20",
               "amount": 294.32691600135394,
               "block_number": 26344767,
               "from": "0xf01ef4051130cc8871fa0c17024a6d62e379e856",
               "to": "0xa1f50ed6656f884df996b7a9a371dd7ef2892ff3",
+              "action": "USP_TOKEN_TRANSFER",
               "log_index": 7,
               "adjustment": 294.32691600135394
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -1807,8 +1921,8 @@
       "afterAttack": {
         "totalAdjustedAmount": 1000.0,
         "transactionAfterExploit": [
-          {
-            "POOL_SWAP": {
+          [
+            {
               "tx_id": "0xa3aa862acbf53a878e76e7e242f3dd3ffae956b6247e9b07c745a440a6a76adb",
               "sender": "0x08ccf4f552c009bbcbd7da6d0074cbf2438dd082",
               "block_number": 26345883,
@@ -1816,10 +1930,11 @@
               "to_token": "USP",
               "from_amount": 1000.0,
               "to_amount": 1564.621115794234,
+              "action": "POOL_SWAP",
               "log_index": 7,
               "adjustment": 1000.0
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -1856,8 +1971,8 @@
       "afterAttack": {
         "totalAdjustedAmount": 700.0,
         "transactionAfterExploit": [
-          {
-            "POOL_SWAP": {
+          [
+            {
               "tx_id": "0x95e35952001810bab228945ef016f8ce8938e7cddcd7e0cf0649a3f4c06b90bc",
               "sender": "0x2fc1ce98ecaa72812cb33f0e46bc74afe312fb40",
               "block_number": 26344501,
@@ -1865,10 +1980,11 @@
               "to_token": "USP",
               "from_amount": 700.0,
               "to_amount": 959.8448211415777,
+              "action": "POOL_SWAP",
               "log_index": 5,
               "adjustment": 700.0
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -1905,30 +2021,32 @@
       "afterAttack": {
         "totalAdjustedAmount": 372.93496,
         "transactionAfterExploit": [
-          {
-            "POOL_DEPOSIT": {
+          [
+            {
               "tx_id": "0x7e7653f9660c328802b1d2c0dccf2e5dbe2d7878ac850194b519667fa5004992",
               "sender": "0x7a447c0a0ca7a786224bc2d27347b257e246eb1d",
               "token": "USDC",
               "amount": 372.93496,
               "liquidity": 372.935812,
               "block_number": 26344972,
+              "action": "POOL_DEPOSIT",
               "log_index": 19,
               "adjustment": 372.93496
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xfe2a298d1cd3c4fb1d44a0c0e859dc53c48db00a455ae3ff38ad765cc3d7660e",
               "amount": 372.935812,
               "block_number": 26344994,
               "from": "0x7a447c0a0ca7a786224bc2d27347b257e246eb1d",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 5,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -1965,18 +2083,19 @@
       "afterAttack": {
         "totalAdjustedAmount": -254.10912,
         "transactionAfterExploit": [
-          {
-            "POOL_WITHDRAW": {
+          [
+            {
               "tx_id": "0xf09c3c95083d08c0d83879161875c700dce9a364eed6f3789629fa68d85eaed2",
               "sender": "0x88c83537c12a90e8f361912a7239e9a8b9dfd92c",
               "token": "USDC",
               "amount": 254.10912,
               "liquidity": 400.945003,
               "block_number": 26346319,
+              "action": "POOL_WITHDRAW",
               "log_index": 25,
               "adjustment": -254.10912
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -2013,19 +2132,20 @@
       "afterAttack": {
         "totalAdjustedAmount": -215.446343,
         "transactionAfterExploit": [
-          {
-            "USP_BORROW": {
+          [
+            {
               "tx_id": "0x93d69d987fb01471e321406b154e30b535292ae6ba14ac09928788609e1efdf1",
               "sender": "0x075fd66bb7c554106822abff69e43511bb9ed006",
               "amount": 677.0,
               "block_number": 26343726,
               "collateral": "USDC.e",
+              "action": "USP_BORROW",
               "log_index": 12,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0x173221e64e6a2c9a2683a9ef220b87a944a9558ad3ebd22653d9739b3d859cec",
               "sender": "0x075fd66bb7c554106822abff69e43511bb9ed006",
               "block_number": 26344403,
@@ -2033,105 +2153,114 @@
               "to_token": "USDT.e",
               "from_amount": 677.0,
               "to_amount": 420.166104,
+              "action": "POOL_SWAP",
               "log_index": 30,
               "adjustment": -420.166104
             }
-          },
-          {
-            "POOL_DEPOSIT": {
+          ],
+          [
+            {
               "tx_id": "0xe9e46305574f8b05c80a922f7b1ff051377535285e4e1290e44aa94d36cd2942",
               "sender": "0x075fd66bb7c554106822abff69e43511bb9ed006",
               "token": "USDT.e",
               "amount": 420.166104,
               "liquidity": 420.166215,
               "block_number": 26344412,
+              "action": "POOL_DEPOSIT",
               "log_index": 67,
               "adjustment": 420.166104
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xc228b1c4441ff1deb7abf0f78e79904d6e3f58a3d1da7343bfedf561d0f327f7",
               "amount": 420.166215,
               "block_number": 26344421,
               "from": "0x075fd66bb7c554106822abff69e43511bb9ed006",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 9,
               "adjustment": 0.0,
               "token": "USDT.e"
             }
-          },
-          {
-            "USP_BORROW": {
+          ],
+          [
+            {
               "tx_id": "0xb58baec9088ea5ca056109a3cd3c2b86acd15882f534a7e73279078b5dd507e0",
               "sender": "0x075fd66bb7c554106822abff69e43511bb9ed006",
               "amount": 366.83,
               "block_number": 26344438,
               "collateral": "USDT.e",
+              "action": "USP_BORROW",
               "log_index": 13,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_DEPOSIT": {
+          ],
+          [
+            {
               "tx_id": "0x0c2ee92fd8818e2eef5bd08560028a4abba3caeb5e1a1f64990405785bf6b85a",
               "sender": "0x075fd66bb7c554106822abff69e43511bb9ed006",
               "token": "USP",
               "amount": 366.83,
               "liquidity": 366.82999762591015,
               "block_number": 26344463,
+              "action": "POOL_DEPOSIT",
               "log_index": 57,
               "adjustment": 0.0
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x8ef9f8321a4ff1d7aa6e0db0c47778e954188983f2e9b609356c608e4d26b69e",
               "amount": 366.82999762591015,
               "block_number": 26344469,
               "from": "0x075fd66bb7c554106822abff69e43511bb9ed006",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 7,
               "adjustment": 0.0,
               "token": "USP"
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0xe1035cbdf92d48ac727551e17924c50892f796be11faa033d8a50fba41e2283f",
               "sender": "0x075fd66bb7c554106822abff69e43511bb9ed006",
               "token": "USP",
               "amount": 1108.245701631589,
               "liquidity": 1108.245701631589,
               "block_number": 26344907,
+              "action": "POOL_WITHDRAW",
               "log_index": 11,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_BORROW": {
+          ],
+          [
+            {
               "tx_id": "0xa1d68d1c4f0610c76cd3dadfe2ef2706c618ecc564db80947c11dbe6eecb7058",
               "sender": "0x075fd66bb7c554106822abff69e43511bb9ed006",
               "amount": 33.76,
               "block_number": 26345010,
               "collateral": "USDT.e",
+              "action": "USP_BORROW",
               "log_index": 17,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x8fea9664479e0904f7d99d98731bbe0f8f8fe4c360ab30b1eb6504aa5801dc3a",
               "sender": "0x075fd66bb7c554106822abff69e43511bb9ed006",
               "amount": 292.4568166491841,
               "block_number": 26345079,
               "collateral": "USDC",
+              "action": "USP_REPAY",
               "log_index": 4,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0xc4dcc5ecc23cf88a3603a7b5463800e2768e3f0dfe6368f530f9a2ee3e3f439c",
               "sender": "0x075fd66bb7c554106822abff69e43511bb9ed006",
               "block_number": 26345666,
@@ -2139,12 +2268,13 @@
               "to_token": "USDT",
               "from_amount": 849.548884982405,
               "to_amount": 378.125772,
+              "action": "POOL_SWAP",
               "log_index": 32,
               "adjustment": -378.125772
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0x04c276205c53bd2505d128ff72fb1ca45402d375d10865ba92b9721fe9883c9e",
               "sender": "0x075fd66bb7c554106822abff69e43511bb9ed006",
               "block_number": 26345724,
@@ -2152,56 +2282,61 @@
               "to_token": "USP",
               "from_amount": 378.125772,
               "to_amount": 587.4654929177226,
+              "action": "POOL_SWAP",
               "log_index": 101,
               "adjustment": 378.125772
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0xb14c09489a6c860e1312d16720ccfe8e71daed1bb94c7f4c28f793c7aeb4dbae",
               "sender": "0x075fd66bb7c554106822abff69e43511bb9ed006",
               "token": "USDC",
               "amount": 215.446343,
               "liquidity": 330.729682,
               "block_number": 26346213,
+              "action": "POOL_WITHDRAW",
               "log_index": 20,
               "adjustment": -215.446343
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x7edf63389879709816fb3c22e4f13506f8abcdc4ff029ed0a7e15dcddd76cb67",
               "sender": "0x075fd66bb7c554106822abff69e43511bb9ed006",
               "amount": 97.0,
               "block_number": 26400098,
               "collateral": "USDT.e",
+              "action": "USP_REPAY",
               "log_index": 1,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x9ce74a183c2691d83f8a628243b03b13349e8e7eb4c856e5648257589501eef9",
               "sender": "0x075fd66bb7c554106822abff69e43511bb9ed006",
               "amount": 153.0,
               "block_number": 26400132,
               "collateral": "USDT.e",
+              "action": "USP_REPAY",
               "log_index": 1,
               "adjustment": 0.0
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xce623b5e518ecbd7e29d4fe2f743e95901bc501fc34dbce75be0107ab8cb26d4",
               "amount": 781.654109,
               "block_number": 26644173,
               "from": "0x075fd66bb7c554106822abff69e43511bb9ed006",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 5,
               "adjustment": 0.0,
               "token": "USDT.e"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -2238,20 +2373,21 @@
       "afterAttack": {
         "totalAdjustedAmount": -130.299413,
         "transactionAfterExploit": [
-          {
-            "POOL_WITHDRAW": {
+          [
+            {
               "tx_id": "0x6e40e4441754b576dc4bd96547bfd45e81b88c7161f6ab37b2d2a87c8dfb82e4",
               "sender": "0xed171e875ff0db8e66fde96ed725bd46d7bd018a",
               "token": "USP",
               "amount": 299.9580125684485,
               "liquidity": 299.9580125684485,
               "block_number": 26346044,
+              "action": "POOL_WITHDRAW",
               "log_index": 15,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0x351738b5a161ff7c19b5dfd9be4e461d3ff048d770d7711832b747755d09562b",
               "sender": "0xed171e875ff0db8e66fde96ed725bd46d7bd018a",
               "block_number": 26346113,
@@ -2259,10 +2395,11 @@
               "to_token": "USDT",
               "from_amount": 299.9580125684485,
               "to_amount": 130.299413,
+              "action": "POOL_SWAP",
               "log_index": 12,
               "adjustment": -130.299413
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -2299,8 +2436,8 @@
       "afterAttack": {
         "totalAdjustedAmount": 59.636187,
         "transactionAfterExploit": [
-          {
-            "POOL_SWAP": {
+          [
+            {
               "tx_id": "0x6ac1d4a70eb960fe87efc432b921de803cc219afd7094dd7a409442ad007ad53",
               "sender": "0xe234275d6bf2d3ab29902a53b5bc7c1cd819d33c",
               "block_number": 26344845,
@@ -2308,10 +2445,11 @@
               "to_token": "USP",
               "from_amount": 59.636187,
               "to_amount": 90.1313146715786,
+              "action": "POOL_SWAP",
               "log_index": 22,
               "adjustment": 59.636187
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -2348,8 +2486,8 @@
       "afterAttack": {
         "totalAdjustedAmount": 30.05620764063251,
         "transactionAfterExploit": [
-          {
-            "POOL_SWAP": {
+          [
+            {
               "tx_id": "0xd5e953eaaa3fd0e87db3208a5a25365e560f5565bc2c70f7394fc09978107025",
               "sender": "0x2696d5ee19a67cedb5ec460ae89d5936bc191b17",
               "block_number": 26345047,
@@ -2357,10 +2495,11 @@
               "to_token": "USP",
               "from_amount": 30.05620764063251,
               "to_amount": 46.36376611180391,
+              "action": "POOL_SWAP",
               "log_index": 11,
               "adjustment": 30.05620764063251
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -2397,8 +2536,8 @@
       "afterAttack": {
         "totalAdjustedAmount": 29.874486,
         "transactionAfterExploit": [
-          {
-            "POOL_SWAP": {
+          [
+            {
               "tx_id": "0xa5276d1e7f72b8ade0cee524376cb03ab91e203021c1e59dc30c32ea72e34f71",
               "sender": "0x2e686272517dc8cd4d98b3f04eba19daddf080a0",
               "block_number": 26345012,
@@ -2406,10 +2545,11 @@
               "to_token": "USP",
               "from_amount": 29.874486,
               "to_amount": 45.96639139114456,
+              "action": "POOL_SWAP",
               "log_index": 17,
               "adjustment": 29.874486
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -2446,18 +2586,19 @@
       "afterAttack": {
         "totalAdjustedAmount": -11.112476,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x2f3e7c7e5c858acfe855bbdb49b93b0c7d4981573c2e2a0009461402ad9dfb96",
               "amount": 11.112476,
               "block_number": 26466932,
               "from": "0xbf59dd862bd86488ed961de5237c3d6c637381be",
               "to": "0xc590175e458b83680867afd273527ff58f74c02b",
+              "action": "LP_TRANSFER",
               "log_index": 1,
               "adjustment": -11.112476,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -2494,18 +2635,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 11.112476,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x2f3e7c7e5c858acfe855bbdb49b93b0c7d4981573c2e2a0009461402ad9dfb96",
               "amount": 11.112476,
               "block_number": 26466932,
               "from": "0xf01ef4051130cc8871fa0c17024a6d62e379e856",
               "to": "0x66b101c1ec482d807b9c920390a00ac797175951",
+              "action": "LP_TRANSFER",
               "log_index": 10,
               "adjustment": 11.112476,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -2542,18 +2684,19 @@
       "afterAttack": {
         "totalAdjustedAmount": -8.00522,
         "transactionAfterExploit": [
-          {
-            "POOL_WITHDRAW": {
+          [
+            {
               "tx_id": "0x17e28f414248e924356e351eb1c8bb6d986815eb32bb10a72724eb5cf0591fbb",
               "sender": "0x5817fbd69473359bc1997203c0fd92b3ea553d29",
               "token": "USDC",
               "amount": 8.00522,
               "liquidity": 12.074761,
               "block_number": 26346179,
+              "action": "POOL_WITHDRAW",
               "log_index": 28,
               "adjustment": -8.00522
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -2590,8 +2733,8 @@
       "afterAttack": {
         "totalAdjustedAmount": 5.757319,
         "transactionAfterExploit": [
-          {
-            "POOL_SWAP": {
+          [
+            {
               "tx_id": "0x05712f822a25cdef1f4e8040f6ed40ab75696645a8f69e44aa77dee33e2b5ade",
               "sender": "0xd4575b1ce52ccc50b8086faef1d010532f98285b",
               "block_number": 26343844,
@@ -2599,12 +2742,13 @@
               "to_token": "USP",
               "from_amount": 4.934455,
               "to_amount": 6.000001058640135,
+              "action": "POOL_SWAP",
               "log_index": 19,
               "adjustment": 4.934455
             }
-          },
-          {
-            "POOL_SWAP": {
+          ],
+          [
+            {
               "tx_id": "0x55d3d750099b7f89d75164a67a9b91efcc1ebfcccabfae98c51ee64a0c9bb4d1",
               "sender": "0xd4575b1ce52ccc50b8086faef1d010532f98285b",
               "block_number": 26343895,
@@ -2612,21 +2756,23 @@
               "to_token": "USP",
               "from_amount": 0.822864,
               "to_amount": 1.0000004388613883,
+              "action": "POOL_SWAP",
               "log_index": 11,
               "adjustment": 0.822864
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xc1f907b7ac78ddd2142021a7f976f9c3ae02becef11aeaa0518a6eff5e74b76e",
               "sender": "0xd4575b1ce52ccc50b8086faef1d010532f98285b",
               "amount": 2750.8775539913427,
               "block_number": 26343916,
               "collateral": "USDC",
+              "action": "USP_REPAY",
               "log_index": 3,
               "adjustment": 0.0
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -18763,18 +18909,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x06b76aaf60c7e96c61c69c5fde5115f4660643aae7e07085d750b321b7a9fd66",
               "amount": 21.95510803946309,
               "block_number": 26380742,
               "from": "0x121eaa3d540d87a878f7f4268e988127ee292e27",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 6,
               "adjustment": 0.0,
               "token": "USP"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -21051,18 +21198,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x527e6a8696dad45f0e8afe0c6db3f236cd99e88ca4fdd26045fdb0df1abc0996",
               "amount": 20.000003,
               "block_number": 26732733,
               "from": "0x0c2d0db3c18c691e4d1e4490fe6217c9489b6ff8",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 6,
               "adjustment": 0.0,
               "token": "USDT.e"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -22499,18 +22647,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x4b499bdc802167c84ee306a2379e4b4b3662d377a642eef81abdd5a412c74561",
               "amount": 25.092610255147765,
               "block_number": 26352789,
               "from": "0xc4035032c8e030ad65801278c7f87de70137d1b5",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 11,
               "adjustment": 0.0,
               "token": "USP"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -22617,18 +22766,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x44fbdcba9da1e10b6522bc311c0396b0c43b5ff4dbbe0b39b7abb4b69b6a2c24",
               "amount": 26.505537,
               "block_number": 26431339,
               "from": "0xb9091269cadd744416db81fbfb52099f38b711ea",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 4,
               "adjustment": 0.0,
               "token": "USDT.e"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -46780,29 +46930,31 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "POOL_WITHDRAW": {
+          [
+            {
               "tx_id": "0x4405f87c8f379f05f84f9bce215b40a92a157014798457b50c1fe9d268d53efa",
               "sender": "0xc5d6f73857530ae285deb56e428df26c5056ef34",
               "token": "USP",
               "amount": 489.98,
               "liquidity": 489.98,
               "block_number": 26343845,
+              "action": "POOL_WITHDRAW",
               "log_index": 6,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xa270cc83fe1a1dcf2c9e25b7b65bfa1bf8e110844394ac9bad77786e1a0ac63e",
               "sender": "0xc5d6f73857530ae285deb56e428df26c5056ef34",
               "amount": 289.0,
               "block_number": 26343939,
               "collateral": "USDC",
+              "action": "USP_REPAY",
               "log_index": 16,
               "adjustment": 0.0
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -46874,30 +47026,32 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x45c0c0b478082ee1833e8097abbf0c91005bee2c851a5149665a4323507751a2",
               "amount": 721.421989,
               "block_number": 26673192,
               "from": "0xb141a25cbee0a3522bd8d8aadaac4561be1083df",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 111,
               "adjustment": 0.0,
               "token": "USDC.e"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xcd434e5d359a4c2512d39bac5d2a645b707fecd62ae0005c29266c8fe42310ef",
               "amount": 721.421989,
               "block_number": 26708245,
               "from": "0xb141a25cbee0a3522bd8d8aadaac4561be1083df",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 14,
               "adjustment": 0.0,
               "token": "USDC.e"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -47669,18 +47823,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xcf892adb4793d37254dad41417e4fa2b8756043a7f49a554fb286041a9da4179",
               "amount": 750.0,
               "block_number": 26374262,
               "from": "0x858aef29849ad338be4d7855e01c23fd66823e47",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 13,
               "adjustment": 0.0,
               "token": "USP"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -49047,30 +49202,32 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x9be80b4fc7445c0742629010102cd79bcbe798bb2a2b0a64f4b76a4ccd6efc41",
               "amount": 1019.98677,
               "block_number": 26447250,
               "from": "0x0a5abc4eef196994abb9cd34fa8fe9229ce53e4f",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 3,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x23bca96790b58c71b22a255544312916faf6bd88da65febfdb8547665fd1cfe3",
               "amount": 1019.98677,
               "block_number": 26447317,
               "from": "0x0a5abc4eef196994abb9cd34fa8fe9229ce53e4f",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 156,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -49142,18 +49299,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xdfac690907bfba3bb1ad310a57f7c8bd9aea08bde3039b3aea15e55f98e4e372",
               "amount": 458.0927594021383,
               "block_number": 26353093,
               "from": "0x37d92a1bab189b2f58975c4ee6210343f3e926a0",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 8,
               "adjustment": 0.0,
               "token": "USP"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -49680,18 +49838,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xf8441899b30a0869e9cc2a138fe90a035d0017d92600215d6d5f03518bdadd27",
               "amount": 999.877471,
               "block_number": 26372856,
               "from": "0xb031010bf5c3aa91d72e690d559bf8f47b51cfac",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 2,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -49833,18 +49992,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xd0e06bd3b6a01972b0b51d8ed1cc44c929a8dcbd58b6c5bf7120a25a50d20589",
               "amount": 556.946563043342,
               "block_number": 26351138,
               "from": "0x084abcd9238c88d0ae94215a95ceef5b4e693863",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 4,
               "adjustment": 0.0,
               "token": "USP"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -49986,30 +50146,32 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x581c124e4f2de87f971eab696a6e0ae268e88f6617559686132a4029b0c6aaa3",
               "amount": 1006.955602,
               "block_number": 26709477,
               "from": "0x3f494d100c01ec52adc253b1752738f87bf2ad8e",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 2,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x3a79f8d4da1c55a0b3760c30e974217d396132d8a602b3e1814ba4e9c56c99fd",
               "amount": 1006.955602,
               "block_number": 26709765,
               "from": "0x3f494d100c01ec52adc253b1752738f87bf2ad8e",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 2,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -50046,30 +50208,32 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x92d2cc54da10f62d186fee1e57c74de45080e841a7a13a2e02ce9720c3fb4c6e",
               "amount": 200.0000002598697,
               "block_number": 26453775,
               "from": "0x27f364a96cc92793263ee07214b38e68acad220f",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 10,
               "adjustment": 0.0,
               "token": "USP"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x2c362a7896309512d60f37a89af96532caf350c3a1c30c9d914f924d480d4db6",
               "amount": 450.694144761644,
               "block_number": 26453994,
               "from": "0x27f364a96cc92793263ee07214b38e68acad220f",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 3,
               "adjustment": 0.0,
               "token": "BUSD"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -50141,18 +50305,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xfbfff677c4d1364737a1ce09da8363290cdfced3c392e6246b2a00e197a5639e",
               "amount": 188.0,
               "block_number": 26357296,
               "from": "0x4ea6460838d213974a045c2651bd5f3cfa430a6f",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 2,
               "adjustment": 0.0,
               "token": "USP"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -50224,30 +50389,32 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xb71087f126968f88c484f065e31ab82cb0ca2a6b454455dd140e43af0d0dac29",
               "amount": 500.5311440918039,
               "block_number": 26365977,
               "from": "0xbfbb35a2c47eeed83612f3fc36ff7ed30091f7ab",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 3,
               "adjustment": 0.0,
               "token": "USP"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x4eea9d52ef6e02094bcbb936be6139e0231a2df19d1003eb41c822090b682c26",
               "amount": 499.994268,
               "block_number": 26366001,
               "from": "0xbfbb35a2c47eeed83612f3fc36ff7ed30091f7ab",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 104,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -51859,18 +52026,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x1945a204ef5d05a438ce63f7c8e6fc6050d3f67b544fefd8215b400244f66623",
               "amount": 499.990006,
               "block_number": 26359596,
               "from": "0xdb9e1e606be0bf5287466d2a74739a2cf15b162d",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 19,
               "adjustment": 0.0,
               "token": "USDT.e"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -52397,18 +52565,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x54137f1f2151bde5061f7752cf979dd6c0e1efe39843199ea00fc3bee3b10742",
               "amount": 117.46628806145634,
               "block_number": 26359867,
               "from": "0x9aefa796f23d0d13e134efb611707e6582c15fd8",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 57,
               "adjustment": 0.0,
               "token": "BUSD"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -55455,18 +55624,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x788a17656c966b90cfa39401425b767da078345ad64048cd084fd96341cdcd28",
               "amount": 100.000026,
               "block_number": 26724695,
               "from": "0xd8bffba52d5e3d7b0ff0a602cd6a4e041c72a474",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 2,
               "adjustment": 0.0,
               "token": "USDT.e"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -56063,54 +56233,58 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x90145b25b0e2d4c3126bfc33107523bafcd99adb95d91ecf54eddfb653e39748",
               "amount": 2181.998754,
               "block_number": 26365358,
               "from": "0x35ab511227f43914a921286de9685462db9f62cd",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 10,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xce95a339ef13ff6b09af346bb8d2230aba1ba89c4b4b2bacc510a0eb2f3b4414",
               "amount": 4679.285756,
               "block_number": 26365385,
               "from": "0x35ab511227f43914a921286de9685462db9f62cd",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 2,
               "adjustment": 0.0,
               "token": "USDT"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x01f9605859cf5daad69201f15e339046beee2bff0ad70046990c8e51b39d7271",
               "amount": 960.079452,
               "block_number": 26412305,
               "from": "0x35ab511227f43914a921286de9685462db9f62cd",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 6,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x9244dc0a23cdbd02d913aef36d5d773e4c551b869223ff0448569a7a53125b20",
               "amount": 960.079452,
               "block_number": 26462780,
               "from": "0x35ab511227f43914a921286de9685462db9f62cd",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 37,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -56287,53 +56461,57 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "POOL_WITHDRAW": {
+          [
+            {
               "tx_id": "0xa30f146353891c4460cd3848a27bf0a85adc5d86e6727a0722129b136bd1f638",
               "sender": "0x9de8f7ba6b8f08ac432703b35c38c0ffeffee68b",
               "token": "USP",
               "amount": 2707.0,
               "liquidity": 2707.0,
               "block_number": 26345724,
+              "action": "POOL_WITHDRAW",
               "log_index": 94,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x02b70d8b49707fab7c31ff30af3ba0691824cf0fcf1de5dc36cb946b2dcb2f4e",
               "sender": "0x9de8f7ba6b8f08ac432703b35c38c0ffeffee68b",
               "amount": 1362.4339236071464,
               "block_number": 26346313,
               "collateral": "USDT.e",
+              "action": "USP_REPAY",
               "log_index": 90,
               "adjustment": 0.0
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x8550ae8f35823316ae14fca66e32fb973e251531638bcd21a8b94dd30a0c0a7c",
               "amount": 1595.248639,
               "block_number": 26367690,
               "from": "0x9de8f7ba6b8f08ac432703b35c38c0ffeffee68b",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 3,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x655e274d00b53e8f4c1d4e18e1af5fce726280930f4259a8a87ade1685c97cf5",
               "amount": 1547.995282,
               "block_number": 26634915,
               "from": "0x9de8f7ba6b8f08ac432703b35c38c0ffeffee68b",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 18,
               "adjustment": 0.0,
               "token": "USDT.e"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -57175,30 +57353,32 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x6f636ef00a81520ffd393b6209c9ef315a47738ca92c50a3f65151e7067949ef",
               "amount": 5853.87,
               "block_number": 26348800,
               "from": "0x96f2b512934d5d5a5c16ee564109d49889dc9202",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 2,
               "adjustment": 0.0,
               "token": "USP"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x6b2f2ff80247c0848fce5daf4d148ec6a5aaf6f5a85b25deb99dd6587b4dfe56",
               "amount": 5853.87,
               "block_number": 26348856,
               "from": "0x96f2b512934d5d5a5c16ee564109d49889dc9202",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 7,
               "adjustment": 0.0,
               "token": "USP"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -57235,18 +57415,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x85ee3b3f92081d89bef5055073a5497fb1ebe33178ce91517be6d4fab233ea67",
               "amount": 4731.0,
               "block_number": 26382919,
               "from": "0x2970f4ad9af5b7b77ddc49a30c35ccef395a01ab",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 6,
               "adjustment": 0.0,
               "token": "USP"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -57283,30 +57464,32 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xf9435459210160e10de455950cc5f2c169fa944ed193b41c284397ea2dd0b23e",
               "amount": 922.634045,
               "block_number": 26344582,
               "from": "0x52e49872153fb72f96a0e4a04356d06d5b4aacd8",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 10,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x9ae5a5f5199bdbd84c3ddf6948c0116f8227f11fdce4033d557de9d20ccb17f7",
               "amount": 922.634045,
               "block_number": 26473089,
               "from": "0x52e49872153fb72f96a0e4a04356d06d5b4aacd8",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 7,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -57518,84 +57701,91 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "POOL_WITHDRAW": {
+          [
+            {
               "tx_id": "0x7808cd8700fa491c6c6b4be78a10b26a5f544260e30991205be209effab2e3a3",
               "sender": "0xfe7e7347e3bc819fd86ca59520194d6e8f056101",
               "token": "USP",
               "amount": 4700.000002136405,
               "liquidity": 4700.000002136405,
               "block_number": 26344611,
+              "action": "POOL_WITHDRAW",
               "log_index": 30,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x53dcae32522aa3df1a2647c39a6c8a5fb079f0d33596ed5e73e83d377de57f53",
               "sender": "0xfe7e7347e3bc819fd86ca59520194d6e8f056101",
               "amount": 1401.236663241475,
               "block_number": 26344792,
               "collateral": "USDC",
+              "action": "USP_REPAY",
               "log_index": 7,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x1027d619f54c714c2211931aa42aa9676d602f8a1f405402b0cd166444b820d2",
               "sender": "0xfe7e7347e3bc819fd86ca59520194d6e8f056101",
               "amount": 1100.9816047397208,
               "block_number": 26344795,
               "collateral": "USDT",
+              "action": "USP_REPAY",
               "log_index": 9,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xed86066cab0e5effac07f20fe2d9c3d7d47ddf0289e4c01c6e9b585eb20430a4",
               "sender": "0xfe7e7347e3bc819fd86ca59520194d6e8f056101",
               "amount": 350.31051347764264,
               "block_number": 26344798,
               "collateral": "DAI.e",
+              "action": "USP_REPAY",
               "log_index": 15,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xade226d4ef041b9a6533ba1141d7877334718b78fd39570210281782e790dea9",
               "sender": "0xfe7e7347e3bc819fd86ca59520194d6e8f056101",
               "amount": 600.5338372360148,
               "block_number": 26344802,
               "collateral": "USDC.e",
+              "action": "USP_REPAY",
               "log_index": 5,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x547c7bf80040c89e2e90b4250e3d9996fee341274d7e9eeaea4ede199da609a8",
               "sender": "0xfe7e7347e3bc819fd86ca59520194d6e8f056101",
               "amount": 600.5353650210724,
               "block_number": 26344806,
               "collateral": "USDT.e",
+              "action": "USP_REPAY",
               "log_index": 36,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x27dfa39a695839854e18191b4e1ddd7c96d021909985c7fd39abbf2839de3e93",
               "sender": "0xfe7e7347e3bc819fd86ca59520194d6e8f056101",
               "amount": 448.0,
               "block_number": 26345215,
               "collateral": "BUSD",
+              "action": "USP_REPAY",
               "log_index": 4,
               "adjustment": 0.0
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -58857,18 +59047,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xf43e5981afd0362cf9fbb2b7459567a8bce84dcc32bd4d6c0b5cbcde1ff4e2e2",
               "amount": 109998.201443,
               "block_number": 26621232,
               "from": "0x659264c2f690edc818a39b3ef350192ce65d0822",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 3,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -59010,18 +59201,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xe39c0ded2132f6c860f5fe14dc68e63f89103e7f3a43a8c86f74a8891170064e",
               "amount": 100.020858,
               "block_number": 26623505,
               "from": "0xbf4c796931727fce4b42e8a7f1b284681a0d5a7c",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 24,
               "adjustment": 0.0,
               "token": "USDC.e"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -59093,30 +59285,32 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x2e0366b8593d929a5eb0801d5eb92c548925a0b4d436458aaffb997af39d0720",
               "amount": 19999.70113011224,
               "block_number": 26375619,
               "from": "0x41b5e243ea178d277a510025ecd02887c3126a40",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 2,
               "adjustment": 0.0,
               "token": "USP"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x46e63385c2563d4446976ffda030c85f613e6ad3a26746425e23ccb4155aeb2d",
               "amount": 19999.70113011224,
               "block_number": 26389476,
               "from": "0x41b5e243ea178d277a510025ecd02887c3126a40",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 7,
               "adjustment": 0.0,
               "token": "USP"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -59223,30 +59417,32 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xea231a55f62dc6dfa4e5822e65a9c4ca07a81ad98f8f9662dcd1f1f2cb6c38f7",
               "amount": 4999.934418,
               "block_number": 26367470,
               "from": "0xe35cce502b4bf974d517636bd66e7b2472d63ec9",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 13,
               "adjustment": 0.0,
               "token": "USDT.e"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x465f0c8d7a38a92e46a641c8b736711cce091686b855a7dc51f4574116fb0cb3",
               "amount": 5000.011431,
               "block_number": 26370323,
               "from": "0xe35cce502b4bf974d517636bd66e7b2472d63ec9",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 15,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -59563,30 +59759,32 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x4c78dbf7bcab8260b0e51c1c42ef7fcdc2b2904508367c44c5c1182a3254c0af",
               "amount": 13585.767749,
               "block_number": 26397526,
               "from": "0x4c56f477bc79f79fe31ca2c339790657872a6227",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 4,
               "adjustment": 0.0,
               "token": "USDC.e"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xd03d84628fcc6d7653a053e04db9a17bf1aecaad7d10df58a9f5af92b861c9da",
               "amount": 8381.0448,
               "block_number": 26397545,
               "from": "0x4c56f477bc79f79fe31ca2c339790657872a6227",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 9,
               "adjustment": 0.0,
               "token": "USDT.e"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -59798,42 +59996,45 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x3a2aefda8497d428deeada89f4b342d1abad6c37e62cc89114ddf033fa12c616",
               "amount": 0.0,
               "block_number": 26345680,
               "from": "0x40089e90156fc6f994cc0ec86dbe84634a1c156f",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 16,
               "adjustment": -0.0,
               "token": "USP"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x3a2aefda8497d428deeada89f4b342d1abad6c37e62cc89114ddf033fa12c616",
               "amount": 35475.73946234103,
               "block_number": 26345680,
               "from": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
               "to": "0x40089e90156fc6f994cc0ec86dbe84634a1c156f",
+              "action": "LP_TRANSFER",
               "log_index": 53,
               "adjustment": 35475.73946234103,
               "token": "USP"
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x3a2aefda8497d428deeada89f4b342d1abad6c37e62cc89114ddf033fa12c616",
               "sender": "0x40089e90156fc6f994cc0ec86dbe84634a1c156f",
               "token": "USP",
               "amount": 35475.73946234103,
               "liquidity": 35475.73946234103,
               "block_number": 26345680,
+              "action": "POOL_WITHDRAW",
               "log_index": 60,
               "adjustment": -35475.73946234103
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -60360,40 +60561,43 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "POOL_WITHDRAW": {
+          [
+            {
               "tx_id": "0x5b650acd2326d63110a53c984a5099bdc90c3a9bd8f6fb8d56464cfc8ab894b1",
               "sender": "0x06f26fcfa33488f77e76a40718bb96dd854bff21",
               "token": "USP",
               "amount": 14000.053794153564,
               "liquidity": 14000.053794153564,
               "block_number": 26344946,
+              "action": "POOL_WITHDRAW",
               "log_index": 21,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xee95993cd09b38c3dfe943e389987b20b0a07c6ccb9d0ea9610497c79180296b",
               "sender": "0x06f26fcfa33488f77e76a40718bb96dd854bff21",
               "amount": 1000.9858070959056,
               "block_number": 26344962,
               "collateral": "DAI.e",
+              "action": "USP_REPAY",
               "log_index": 13,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_EMERGENCY_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x7986d445c87e63ec04f42c89054eaff6233778ac13fb8ce66827f5e4fad62093",
               "sender": "0x06f26fcfa33488f77e76a40718bb96dd854bff21",
               "amount": 0.0,
               "block_number": 26346497,
               "token": "DAI.e",
+              "action": "POOL_EMERGENCY_WITHDRAW",
               "log_index": 27,
               "adjustment": 0.0
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -61480,18 +61684,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x0ea0a351c05eb3034667e91e164ab4e8e60362713eac83fab22fb18adcbbed44",
               "amount": 1999.5190849262408,
               "block_number": 26626714,
               "from": "0xb2b194901208ab436bf236e6bb16eb7a0dbd287e",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 6,
               "adjustment": 0.0,
               "token": "BUSD"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -61563,30 +61768,32 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xb74d8bc24d35396c7cf56846ef886753a95fdc3ee72ac0e7da22911e58f2ce50",
               "amount": 6435.260071,
               "block_number": 26389429,
               "from": "0x2e3013f0aa7fd0aca874aaae03c93f56c68c0cd0",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 25,
               "adjustment": 0.0,
               "token": "USDC.e"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x0cb1d01d93157e18b98a6ded770a4d66193c3baceac93f20cf97cffda65668b4",
               "amount": 6433.351278,
               "block_number": 26389567,
               "from": "0x2e3013f0aa7fd0aca874aaae03c93f56c68c0cd0",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 2,
               "adjustment": 0.0,
               "token": "USDT"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -62568,78 +62775,84 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x6ddf41b6dc3da0a13ec5bb13ec719bc5a78379afcccff9018b7234009b3bda30",
               "amount": 1801.239738,
               "block_number": 26394364,
               "from": "0xb74efa1cc2959f8b7afb6e4178647ea928b421aa",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 3,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x8501622f7a919a6bd84fd3e6cbc1606c262d6d3e08c12fd350cd7778cca97df9",
               "amount": 32.000001,
               "block_number": 26394367,
               "from": "0xb74efa1cc2959f8b7afb6e4178647ea928b421aa",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 15,
               "adjustment": 0.0,
               "token": "USDT"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xb014d04cd232f1e66261384bb6a200ba5ab46aa10a18759fdf43053a346702ee",
               "amount": 1801.239738,
               "block_number": 26395729,
               "from": "0xb74efa1cc2959f8b7afb6e4178647ea928b421aa",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 7,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x597067fd71687fa00cb63e7391940a23da160a6f68703da3bd5cd69816efd1fa",
               "amount": 1801.239738,
               "block_number": 26408069,
               "from": "0xb74efa1cc2959f8b7afb6e4178647ea928b421aa",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 3,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xfabcbcf17b15e804a79fd62e2e8b753083a0622df25d52fe5ce516091abf8f6e",
               "amount": 1801.239738,
               "block_number": 26479298,
               "from": "0xb74efa1cc2959f8b7afb6e4178647ea928b421aa",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 2,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x370a8c696f75f85ec1d04c1918f0ccb7fdc34b988422987d85719bb005dd7358",
               "amount": 32.000001,
               "block_number": 26627640,
               "from": "0xb74efa1cc2959f8b7afb6e4178647ea928b421aa",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 8,
               "adjustment": 0.0,
               "token": "USDT"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -63131,18 +63344,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x899e16cc14f86c3c866fe2d7925281edd061c56495c1fe0d2820609473913951",
               "amount": 1009.2149455760213,
               "block_number": 26707051,
               "from": "0x7516d337dded2bdb8724ef3b0841dbd0b48cd7a3",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 4,
               "adjustment": 0.0,
               "token": "USP"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -64194,18 +64408,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xb348fe2a8313dfd41e23f6d1f12e7f3eb8204d7f290f81dc78333d4998db490d",
               "amount": 1005.331335,
               "block_number": 26459875,
               "from": "0xd29bbdd18ace5f796278f6767eb8edcb5a4aec9e",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 11,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -65397,18 +65612,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xf9c7672035f46ac3414022a486b60d9f17a35c7abb5fed08d2199d7e70927a4b",
               "amount": 3799.6221533658345,
               "block_number": 26353413,
               "from": "0x38c9f9b9fbe6b9e86d178aa06ea1cf31f06c14f6",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 38,
               "adjustment": 0.0,
               "token": "USP"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -65550,144 +65766,156 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "USP_BORROW": {
+          [
+            {
               "tx_id": "0x16b799ab601debe20383228fef4a632d2b28d5c095c2a2e8c08c155f2cbee6f9",
               "sender": "0x7497b333895c64a56924b293e68a6468963f2a7e",
               "amount": 172.0,
               "block_number": 26343797,
               "collateral": "USDC.e",
+              "action": "USP_BORROW",
               "log_index": 13,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_BORROW": {
+          ],
+          [
+            {
               "tx_id": "0x09c94b772952df1fd67e954304e216e9d3b7217a8b813085653112a8a356aaee",
               "sender": "0x7497b333895c64a56924b293e68a6468963f2a7e",
               "amount": 109.0,
               "block_number": 26343826,
               "collateral": "USDT",
+              "action": "USP_BORROW",
               "log_index": 24,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_BORROW": {
+          ],
+          [
+            {
               "tx_id": "0xf526ce3eb635e5fe4eee1761385acbabe4348adfe9d3b01d98a85b31ba5d056e",
               "sender": "0x7497b333895c64a56924b293e68a6468963f2a7e",
               "amount": 143.0,
               "block_number": 26343836,
               "collateral": "USDC",
+              "action": "USP_BORROW",
               "log_index": 8,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_DEPOSIT": {
+          ],
+          [
+            {
               "tx_id": "0x6b821cacd008b06e18823cca6be2a4dc08081cac6fabfccde9906c8f0b5ffb8d",
               "sender": "0x7497b333895c64a56924b293e68a6468963f2a7e",
               "token": "USP",
               "amount": 424.0,
               "liquidity": 423.9999950829448,
               "block_number": 26343864,
+              "action": "POOL_DEPOSIT",
               "log_index": 12,
               "adjustment": 0.0
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xcd07416d527e4b7fb8215b775b23eb41ef4aded9cc07d0665cd62ff514459816",
               "amount": 423.9999950829448,
               "block_number": 26343873,
               "from": "0x7497b333895c64a56924b293e68a6468963f2a7e",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 33,
               "adjustment": 0.0,
               "token": "USP"
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x5e4166668350474edf03eabe3318e298cac06901e2c9bd7ab345e61988c3095a",
               "sender": "0x7497b333895c64a56924b293e68a6468963f2a7e",
               "token": "USP",
               "amount": 40.93608935116796,
               "liquidity": 40.93608935116796,
               "block_number": 26344668,
+              "action": "POOL_WITHDRAW",
               "log_index": 4,
               "adjustment": 0.0
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x2d74530494af428024a3f734fe613cc661b7b92b3acb76803abe9f05a22a09fd",
               "amount": 982.4661444280308,
               "block_number": 26344723,
               "from": "0x7497b333895c64a56924b293e68a6468963f2a7e",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 4,
               "adjustment": 0.0,
               "token": "USP"
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x81188ebabbb495ac65ab5949b960804640ff5fa895f28cdbf00fbd6095f17714",
               "sender": "0x7497b333895c64a56924b293e68a6468963f2a7e",
               "token": "USP",
               "amount": 1009.07460250629,
               "liquidity": 1009.07460250629,
               "block_number": 26344834,
+              "action": "POOL_WITHDRAW",
               "log_index": 15,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0xa479a90b9aa7be8a3d60642c0e5a4f2ee08a16ee604cac3d0f1be7ec2cf64a7f",
               "sender": "0x7497b333895c64a56924b293e68a6468963f2a7e",
               "amount": 335.0,
               "block_number": 26344850,
               "collateral": "USDT",
+              "action": "USP_REPAY",
               "log_index": 30,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x153571fb7c9118677a50529817e660ff6516cd75b90e975ec97e58621398b8c4",
               "sender": "0x7497b333895c64a56924b293e68a6468963f2a7e",
               "amount": 329.0,
               "block_number": 26344863,
               "collateral": "USDC.e",
+              "action": "USP_REPAY",
               "log_index": 3,
               "adjustment": 0.0
             }
-          },
-          {
-            "USP_REPAY": {
+          ],
+          [
+            {
               "tx_id": "0x62a547bb0be0ff196d3026c9cf518a98d9480db6be02cc1b52aa22769d904775",
               "sender": "0x7497b333895c64a56924b293e68a6468963f2a7e",
               "amount": 386.0,
               "block_number": 26344884,
               "collateral": "USDC",
+              "action": "USP_REPAY",
               "log_index": 4,
               "adjustment": 0.0
             }
-          },
-          {
-            "POOL_WITHDRAW": {
+          ],
+          [
+            {
               "tx_id": "0x1b1b2ef462cf085e209535de88fc7357d8cb8d469d7ba44708c83b72808b628a",
               "sender": "0x7497b333895c64a56924b293e68a6468963f2a7e",
               "token": "USP",
               "amount": 1873.9956903688244,
               "liquidity": 1873.9956903688244,
               "block_number": 26344923,
+              "action": "POOL_WITHDRAW",
               "log_index": 18,
               "adjustment": 0.0
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -66704,18 +66932,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x180e0f2586b5eb41c610f25ab2c29f767538dbb3a795d186c5fbf66b071355b5",
               "amount": 2225.175354,
               "block_number": 26653960,
               "from": "0x6f0de99ed58c9405e6c427a5652a904a9452a05c",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 3,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -67032,18 +67261,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "POOL_WITHDRAW": {
+          [
+            {
               "tx_id": "0x597cd0bb970dc77818fd45a24cdd0e25132cb05a7c4dde423895365d02ee0931",
               "sender": "0xcdd0550d713b06411c7f7578ed4e41a77189f4a7",
               "token": "USP",
               "amount": 2476.0181148736656,
               "liquidity": 2476.0181148736656,
               "block_number": 26346118,
+              "action": "POOL_WITHDRAW",
               "log_index": 33,
               "adjustment": 0.0
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -67815,18 +68045,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x6c26a30c08c5ad8d1bc3290acf2fef5454a89211a85c3e5d4ff6a938a2c7a1f2",
               "amount": 100.094596,
               "block_number": 26592215,
               "from": "0xeb00af6fe0eed4425bb48cf516d85e5edb08d6be",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 7,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -69613,18 +69844,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xd9cfece19bb40c515fefdd4eac4efbd7f4e71600ec594877f9ee5f4a37099e41",
               "amount": 100.000004,
               "block_number": 26727034,
               "from": "0xb474c7e78e88120aa255b79b0cedc8ef8f035e83",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 2,
               "adjustment": 0.0,
               "token": "USDT"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -73161,18 +73393,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xcf2a97694555eb37ac43c0325d5152f1796781fd47c556697052879e9b752881",
               "amount": 269.281863,
               "block_number": 26511211,
               "from": "0x1f4658cbf6fe7d54e5d94c1d4c98d0f9e9c3a42e",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 2,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -74679,30 +74912,32 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xcad9e3dee202bab2772b11d1371f91090d8154bd3762e75b535ae512063429c5",
               "amount": 46297.254457,
               "block_number": 26346300,
               "from": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
               "to": "0xc204501f33ec40b8610bb2d753dd540ec6ea2646",
+              "action": "LP_TRANSFER",
               "log_index": 26,
               "adjustment": 46297.254457,
               "token": "USDT"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xcad9e3dee202bab2772b11d1371f91090d8154bd3762e75b535ae512063429c5",
               "amount": 46297.254457,
               "block_number": 26346300,
               "from": "0xc204501f33ec40b8610bb2d753dd540ec6ea2646",
               "to": "0x2a368ecff594616a18eda1307e45808de36598ee",
+              "action": "LP_TRANSFER",
               "log_index": 33,
               "adjustment": -46297.254457,
               "token": "USDT"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -80654,42 +80889,45 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0xe0d04e4bc257b96f6e59f21874630ec8449899e9d8d75551db395eda65d5cb64",
               "amount": 16.85505533629569,
               "block_number": 26415633,
               "from": "0x7547f6c452f8964835339a685dbb5935aac7ffc7",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 3,
               "adjustment": 0.0,
               "token": "BUSD"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x0d405b0e0187de098b4e177aaedc27b41327d1048875dc63758ade249aa30157",
               "amount": 46.415746,
               "block_number": 26582375,
               "from": "0x7547f6c452f8964835339a685dbb5935aac7ffc7",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 17,
               "adjustment": 0.0,
               "token": "USDC.e"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0xaa9e9d801896fcbf3b76ac6b5c3e9849fdd9310f6e8234f3d83c36c1997ffd39",
               "amount": 16.85505533629569,
               "block_number": 26582384,
               "from": "0x7547f6c452f8964835339a685dbb5935aac7ffc7",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 34,
               "adjustment": 0.0,
               "token": "BUSD"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -80936,18 +81174,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x6ae4af4de563beb070c6479978cdcc3e02c2fb915d891eed5f04350347d01965",
               "amount": 134.117787,
               "block_number": 26457349,
               "from": "0x161910621638e6ca35248bf50a1bc22d93fec3ba",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 4,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -87109,18 +87348,19 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x98060b013f948273e1b5cbe758f8d952146ccb530f46b155ed756fd52cf220ec",
               "amount": 214.299312,
               "block_number": 26643231,
               "from": "0x7add780225843ade5c473ae0eb263ff0e9848242",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 2,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
@@ -87227,30 +87467,32 @@
       "afterAttack": {
         "totalAdjustedAmount": 0.0,
         "transactionAfterExploit": [
-          {
-            "LP_TRANSFER": {
+          [
+            {
               "tx_id": "0x90221e2e77db6fc5cf8d06570920023e3989679fc039677caa5d7426f8aa1ce9",
               "amount": 212.716102,
               "block_number": 26413637,
               "from": "0xf10ad0a388350072fcb70dd105f0544a583fbe81",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 2,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          },
-          {
-            "LP_TRANSFER": {
+          ],
+          [
+            {
               "tx_id": "0x78a13c8d04a6cda54dc13aac536c8527e441900084959b72bd67cec8fce864e5",
               "amount": 212.716102,
               "block_number": 26505923,
               "from": "0xf10ad0a388350072fcb70dd105f0544a583fbe81",
               "to": "0xff6934aac9c94e1c39358d4fdcf70aeca77d0ab0",
+              "action": "LP_TRANSFER",
               "log_index": 27,
               "adjustment": 0.0,
               "token": "USDC"
             }
-          }
+          ]
         ]
       },
       "compensation": [
