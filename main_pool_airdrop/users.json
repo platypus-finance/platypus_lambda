@@ -1,6 +1,6 @@
 {
   "market": {
-    "recoveredFund": 7011971.269097,
+    "recoveredFund": [7011971.269097],
     "totalLiability": 13526209.526258882
   },
   "users": {
