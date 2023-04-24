@@ -35,6 +35,14 @@ custom:
     enabled: true
 
 functions:
+  merkle_info:
+    runtime: nodejs14.x
+    handler: merkle_info/handler.merkle_info
+    events:
+      - http:
+          path: /merkle_info
+          method: post
+          cors: true
   current_time:
     runtime: nodejs14.x
     handler: current_time/handler.currentTime
@@ -60,18 +68,18 @@ functions:
           method: get
           cors: true
   cmc_price:
-    runtime: nodejs14.x
-    handler: cmc_price/handler.cmcPrice
-    events:
-      - http:
-          path: /cmc_price
-          method: get
-          cors: true
-          caching:
-            enabled: true
-            ttlInSeconds: 300 # cache cmc price for 5mins
-            cacheKeyParameters:
-              - name: request.querystring.id
+  runtime: nodejs14.x
+  handler: cmc_price/handler.cmcPrice
+  events:
+    - http:
+        path: /cmc_price
+        method: get
+        cors: true
+        caching:
+          enabled: true
+          ttlInSeconds: 300 # cache cmc price for 5mins
+          cacheKeyParameters:
+            - name: request.querystring.id
 # you can add CloudFormation resource templates here
 #resources:
 #  Resources:
