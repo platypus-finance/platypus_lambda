@@ -10,7 +10,7 @@ AWS.config.update({
 
 // Create the DynamoDB service object
 const dynamoClient = new AWS.DynamoDB.DocumentClient({
-  region: "ap-southeast-1", // replace with your desired region
+  region: process.env.AWS_REGION, // replace with your desired region
 });
 const tableName = "platypus-airdrop-claims";
 const transferRes = async (responses) => {
