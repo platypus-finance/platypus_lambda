@@ -3,33 +3,33 @@ const AWS = require("aws-sdk");
 
 // Set region and credentials for DynamoDB
 AWS.config.update({
-  region: process.env.AWS_REGION,
-  accessKeyId: process.env.AWS_REGION,
-  secretAccessKey: process.env.AWS_REGION,
+  region: process.env.REGION,
+  accessKeyId: process.env.ACCESS_KEY_ID,
+  secretAccessKey: process.env.SECRET_ACCESS_KEY,
 });
 
-// Create the DynamoDB service object
+// Create the DynamoDB service objects
 const dynamoClient = new AWS.DynamoDB.DocumentClient({
-  region: process.env.AWS_REGION, // replace with your desired region
+  region: process.env.REGION, // replace with your desired region
 });
 const tableName = "platypus-airdrop-claims";
 const transferRes = async (responses) => {
   return responses.reduce((prev, curr) => {
-    const compaignAddress = curr.compaignAddress_userAddress.split("_")[0];
+    const campaignAddress = curr.campaignAddress_userAddress.split("_")[0];
     const { index, amount, proof } = curr;
     return {
       ...prev,
-      [compaignAddress]: { index, amount, proof },
+      [campaignAddress]: { index, amount, proof },
     };
   }, {});
 };
-const getDocuments = async (compaignAddress_userAddresses) => {
+const getDocuments = async (campaignAddress_userAddresses) => {
   const params = {
     RequestItems: {
       [tableName]: {
-        Keys: compaignAddress_userAddresses.map(
-          (compaignAddress_userAddress) => ({
-            compaignAddress_userAddress,
+        Keys: campaignAddress_userAddresses.map(
+          (campaignAddress_userAddress) => ({
+            campaignAddress_userAddress,
           })
         ),
       },
@@ -43,16 +43,16 @@ const getDocuments = async (compaignAddress_userAddresses) => {
 
 module.exports.merkle_info = async (event) => {
   // Retrieve the Item ID from the event object
-  const compaignAddress_userAddresses = JSON.parse(event.body);
+  const campaignAddress_userAddresses = JSON.parse(event.body);
   // Call the DynamoDB getItem method to retrieve the item
   try {
-    if (!compaignAddress_userAddresses) {
-      throw "compaignAddress_userAddresses is empty";
+    if (!campaignAddress_userAddresses) {
+      throw "campaignAddress_userAddresses is empty";
     }
-    const result = await getDocuments(compaignAddress_userAddresses);
+    const result = await getDocuments(campaignAddress_userAddresses);
 
     console.log(
-      `Get User Claims: ${compaignAddress_userAddresses[0].split("_")[1]}`
+      `Get User Claims: ${campaignAddress_userAddresses[0].split("_")[1]}`
     ); // Log the retrieved item to CloudWatch Logs
 
     // Return the retrieved item as the response to the Lambda invocation
