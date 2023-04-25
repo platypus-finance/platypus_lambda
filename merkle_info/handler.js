@@ -50,6 +50,7 @@ module.exports.merkle_info = async (event) => {
       throw "compaignAddress_userAddresses is empty";
     }
     const result = await getDocuments(compaignAddress_userAddresses);
+
     console.log(
       `Get User Claims: ${compaignAddress_userAddresses[0].split("_")[1]}`
     ); // Log the retrieved item to CloudWatch Logs
@@ -57,6 +58,10 @@ module.exports.merkle_info = async (event) => {
     // Return the retrieved item as the response to the Lambda invocation
     return {
       statusCode: 200,
+      headers: {
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+      },
       body: JSON.stringify(result),
     };
   } catch (err) {
@@ -64,6 +69,10 @@ module.exports.merkle_info = async (event) => {
     // If there was an error retrieving the item, return an error response
     return {
       statusCode: 500,
+      headers: {
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+      },
       body: JSON.stringify({
         message: "Error retrieving item from DynamoDB",
         error: err,
