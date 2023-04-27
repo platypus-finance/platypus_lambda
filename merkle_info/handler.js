@@ -50,10 +50,10 @@ module.exports.merkle_info = async (event) => {
       throw "campaignAddress_userAddresses is empty";
     }
     const result = await getDocuments(campaignAddress_userAddresses);
-
-    console.log(
-      `Get User Claims: ${campaignAddress_userAddresses[0].split("_")[1]}`
-    ); // Log the retrieved item to CloudWatch Logs
+    const userAddress = campaignAddress_userAddresses[0]
+      .split("_")[1]
+      .toLowerCase();
+    console.log(`Get User Claims: ${userAddress}`); // Log the retrieved item to CloudWatch Logs
 
     // Return the retrieved item as the response to the Lambda invocation
     return {
@@ -62,7 +62,10 @@ module.exports.merkle_info = async (event) => {
         "content-type": "application/json",
         "access-control-allow-origin": "*",
       },
-      body: JSON.stringify(result),
+      body: JSON.stringify({
+        userAddress,
+        result,
+      }),
     };
   } catch (err) {
     console.error(err);
