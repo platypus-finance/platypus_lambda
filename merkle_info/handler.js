@@ -12,7 +12,7 @@ AWS.config.update({
 const dynamoClient = new AWS.DynamoDB.DocumentClient({
   region: process.env.REGION, // replace with your desired region
 });
-const tableName = "platypus-airdrop-claims";
+const tableName = process.env.TABLE_NAME;
 const transferRes = async (responses) => {
   return responses.reduce((prev, curr) => {
     const campaignAddress = curr.campaignAddress_userAddress.split("_")[0];
