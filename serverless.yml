@@ -35,6 +35,14 @@ custom:
     enabled: true
 
 functions:
+  merkle_info:
+    runtime: nodejs14.x
+    handler: merkle_info/handler.merkle_info
+    events:
+      - http:
+          path: /merkle_info
+          method: post
+          cors: true
   current_time:
     runtime: nodejs14.x
     handler: current_time/handler.currentTime
